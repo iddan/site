@@ -1,0 +1,12 @@
+{
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "files.exclude": {
+    "node_modules": "explorerExcludedFiles",
+    ".cache/": "explorerExcludedFiles",
+    "public/": "explorerExcludedFiles",
+    ".DS_Store": "explorerExcludedFiles",
+    "yarn-error.log": "explorerExcludedFiles"
+  }
+}
