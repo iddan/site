@@ -31,8 +31,8 @@ header aside {
   header aside {
     flex-direction: column;
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 18px;
+    right: 18px;
   }
 
   header aside .SocialMedia {
@@ -48,6 +48,7 @@ header aside {
   margin-left: 32px;
   background: rgba(0,0,0,0);
   transition: background .15s;
+  outline: none;
 }
 
 .SocialMedia:hover {
