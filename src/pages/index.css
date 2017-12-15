@@ -3,6 +3,7 @@
 }
 
 .Projects {
+  max-width: 80em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
