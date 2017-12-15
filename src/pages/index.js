@@ -1,33 +1,11 @@
 import React from "react";
 import Link from "gatsby-link";
-import { Textfit } from "react-textfit";
 
-import reactUniversalMarkdown from "./react-universal-markdown.png";
-import reactKeen from "./react-keen.png";
-import hackTheWeb from "./hack-the-web.png";
+import Project from "../Project";
+import reactUniversalMarkdown from "../../images/react-universal-markdown.png";
+import reactKeen from "../../images/react-keen.png";
+import hackTheWeb from "../../images/hack-the-web.png";
 import "./index.css";
-
-const Image = ({ source, size }) => (
-  <div
-    className="Image"
-    style={{
-      backgroundSize: size && size * 100 + "%",
-      backgroundImage: `url(${source})`
-    }}
-  />
-);
-
-const Project = ({ title, image, imageSize, description, link, padded }) => (
-  <a href={link} className="Project">
-    <Image source={image} size={imageSize} />
-    <h3>
-      <Textfit mode="single" forceSingleModeWidth={false}>
-        {title}
-      </Textfit>
-    </h3>
-    <p>{description}</p>
-  </a>
-);
 
 const IndexPage = () => (
   <main className="IndexPage">

@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import facebook from "./logos/facebook.svg";
-import twitter from "./logos/twitter.svg";
-import github from "./logos/github.svg";
-import instagram from "./logos/instagram.svg";
+import facebook from "../icons/facebook.svg";
+import twitter from "../icons/twitter.svg";
+import github from "../icons/github.svg";
+import instagram from "../icons/instagram.svg";
 import "./Header.css";
 
 const SocialMedia = ({ link, icon }) => (
