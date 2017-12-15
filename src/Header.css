@@ -40,22 +40,31 @@ header aside {
   }
 }
 
-header .SocialMedia {
-  width: 32px;
-  height: 32px;
+.SocialMedia {
+  width: 48px;
+  height: 48px;
+  padding: 10px;
   border-radius: 50%;
   margin-left: 32px;
-  display: flex;
-  align-self: center;
-  justify-content: center;
+  background: rgba(0,0,0,0);
+  transition: background .15s;
 }
 
-/* header .SocialMedia:hover {
-  background: rgba(0,0,0,0.3);
-} */
+.SocialMedia:hover {
+  background: rgba(0,0,0,0.1);
+}
 
-header .SocialMedia img {
+.SocialMedia:active {
+  background: black;
+}
+
+.SocialMedia img {
   width: 100%;
   height: 100%;
   display: block;
+  transition: filter .15s;
+}
+
+.SocialMedia:active img {
+  filter: invert(10);
 }
