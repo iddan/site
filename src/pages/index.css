@@ -33,7 +33,7 @@
 }
 
 @media (max-width: 600px) {
-  .IndexPage {
+  .Projects {
     flex-direction: column;
     align-items: center;
     flex-wrap: no-wrap;
