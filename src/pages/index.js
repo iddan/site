@@ -16,7 +16,7 @@ const IndexPage = () => (
         description="Dynamic CSS for user interfaces"
         image="https://camo.githubusercontent.com/15ab283599e3318fe60dd4944b109fea503e9d75/68747470733a2f2f63646e2e7261776769742e636f6d2f696464616e2f7374796c6573686565742f6d61737465722f6173736574732f7374796c6573686565742e737667"
         imageSize={0.6}
-        link="https://github.com/iddan/stylesheet"
+        link="https://iddan.github.io/stylesheet"
       />
       <Project
         title="react-native-canvas"
@@ -29,13 +29,13 @@ const IndexPage = () => (
         title="react-universal-markdown"
         description="Markdown component for Web and Native powered by CommonMark"
         image={reactUniversalMarkdown}
-        link="https://github.com/iddan/react-native-canvas"
+        link="https://github.com/iddan/react-universal-markdown"
       />
       <Project
         title="react-keen"
         description="React bindings for Keen IO SDK"
         image={reactKeen}
-        link="https://github.com/iddan/react-native-canvas"
+        link="https://github.com/iddan/react-keen"
         imageSize={1.1}
       />
       <Project
@@ -48,7 +48,7 @@ const IndexPage = () => (
         title="Hack the Web"
         description="A yearly event focusing on disrupting knowledge related to development for the World Wide Web."
         image={hackTheWeb}
-        link="https://github.com/iddan/progress-circle"
+        link="https://hacktheweb.org/"
         imageSize={1}
       />
     </section>
