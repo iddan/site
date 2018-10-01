@@ -16,3 +16,4 @@ collections:
       - { name: image, label: Image, widget: "image" }
       - { name: imageSize, label: Image Size, widget: "number" }
       - { name: link, label: Link, regex: (?:http|https)\:\/\/.+\..+ }
+      - { name: startDate, label: Start Date, widget: "date" }
