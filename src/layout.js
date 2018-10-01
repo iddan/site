@@ -1,12 +1,11 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import Header from "../Header";
 import Footer from "../Footer";
 
 import "./index.css";
 
-const TemplateWrapper = ({ children }) => (
+export default ({ children }) => (
   <div>
     <Helmet
       title="iddan"
@@ -16,13 +15,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    {children()}
+    {children}
     <Footer />
   </div>
 );
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func
-};
-
-export default TemplateWrapper;
