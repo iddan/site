@@ -4,5 +4,6 @@ description: Markdown component for Web and Native powered by CommonMark
 image: /assets/react-universal-markdown.png
 imageSize: '1'
 link: Markdown component for Web and Native powered by CommonMark
+startDate: 2017-07-27T20:38:58.640Z
 ---
 
