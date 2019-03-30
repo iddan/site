@@ -2,7 +2,7 @@
 title: React Spreadsheet
 description: 'Simple, customizable yet performant spreadsheet for React.'
 image: /assets/logo.svg
-imageSize: 1
+imageSize: 0.45
 link: 'https://github.com/iddan/react-spreadsheet'
 startDate: 2017-03-16T15:00:00.000Z
 ---
