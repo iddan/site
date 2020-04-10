@@ -1,5 +1,5 @@
 import React from "react";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -11,7 +11,7 @@ export default ({ children }) => (
       title="iddan"
       meta={[
         { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" }
+        { name: "keywords", content: "sample, something" },
       ]}
     />
     <Header />
