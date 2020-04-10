@@ -17,6 +17,7 @@
 body {
   background-color: var(--background);
   color: var(--color);
+  transition: all 0.15s;
 }
 
 .Home h2 {
