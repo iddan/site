@@ -1,13 +1,25 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Iddan Aaronsohn's Personal Site
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+My personal website with links and projects
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+### Technology
 
-## Deploy
+The website is statically generated in [Netlify](http://netlify.com/) using:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+- [Gatsby](https://www.gatsbyjs.org/)
+- [Netlify CMS](https://www.netlifycms.org/)
+
+### Development
+
+- Clone the repository
+- To install dependencies, in the cloned directory run:
+
+  ```bash
+  yarn
+  ```
+
+- Run the development server:
+
+  ```bash
+  yarn develop
+  ```
