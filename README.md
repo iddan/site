@@ -2,6 +2,8 @@
 
 My personal website with links and projects
 
+[![Screenshot](./docs/screenshot.png)](https://aniddan.com)
+
 ### Technology
 
 The website is statically generated in [Netlify](http://netlify.com/) using:
