@@ -5,17 +5,19 @@ import Footer from "./Footer";
 
 import "./layout.css";
 
-export default ({ children }) => (
-  <div>
-    <Helmet
-      title="iddan"
-      meta={[
-        { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" },
-      ]}
-    />
-    <Header />
-    {children}
-    <Footer />
-  </div>
-);
+export default ({ children }) => {
+  return (
+    <div>
+      <Helmet
+        title="iddan"
+        meta={[
+          { name: "description", content: "Iddan Aaronsohn's personal site" },
+          { name: "keywords", content: "iddan, aaronsohn" },
+        ]}
+      />
+      <Header />
+      {children}
+      <Footer />
+    </div>
+  );
+};
