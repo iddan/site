@@ -1,3 +1,24 @@
+:root {
+  --background: white;
+  --surface: #eee;
+  --color: rgba(0, 0, 0, 0.8);
+  --ink: rgba(0, 0, 0, 0);
+  --ink-hover: rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode {
+  --background: #1a1a1a;
+  --surface: black;
+  --color: rgba(255, 255, 255, 0.8);
+  --ink: rgba(255, 255, 255, 0);
+  --ink-hover: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--color);
+}
+
 .Home h2 {
   margin: 0 32px 48px;
 }
