@@ -36,6 +36,7 @@ collections:
       - name: current
         label: I currently work here
         widget: boolean
+        default: false
   - name: projects
     label: Projects
     label_singular: Project
