@@ -1,0 +1,10 @@
+/**
+ * This module is where general typography declarations should be made. This way
+ * CSS module depending on these declarations can import the module.
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Space+Mono:400,700i");
+
+body {
+  font-family: "Space Mono", monospace;
+}

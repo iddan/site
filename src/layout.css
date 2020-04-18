@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Space+Mono:400,700i");
+@import "./typography.css";
 
 html {
   -ms-text-size-adjust: 100%;
@@ -6,7 +6,6 @@ html {
 }
 body {
   font-family: "Space Mono", monospace;
-  margin: 0;
 }
 article,
 aside,
