@@ -1,18 +1,4 @@
-:root {
-  --background: white;
-  --surface: #eee;
-  --color: rgba(0, 0, 0, 0.8);
-  --ink: rgba(0, 0, 0, 0);
-  --ink-hover: rgba(0, 0, 0, 0.1);
-}
-
-.dark-mode {
-  --background: #1a1a1a;
-  --surface: black;
-  --color: rgba(255, 255, 255, 0.8);
-  --ink: rgba(255, 255, 255, 0);
-  --ink-hover: rgba(255, 255, 255, 0.1);
-}
+@import "../colors.css";
 
 body {
   background-color: var(--background);
