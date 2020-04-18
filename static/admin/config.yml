@@ -13,6 +13,8 @@ collections:
     fields:
       - name: title
         label: Title
+      - name: role
+        label: Role
       - name: link
         label: Link
         regex: (?:http|https)\:\/\/.+\..+
