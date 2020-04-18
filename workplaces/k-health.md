@@ -1,0 +1,14 @@
+---
+title: K Health
+link: https://khealth.ai
+startDate: 2017-07-04T21:00:00.000Z
+endDate: ""
+description: >-
+  Been part of a small team built the React Native application featured as top 1
+  in the Israeli App Store, built internal tools using web technologies,
+  contributed to the services architecture design process and maintained the
+  main production backend services of the company.
+
+  As part of the work I regularly used technologies like React Native, React, Redux, Python, Flask, MongoDB, MySQL, Redis, Git, Docker, Google Cloud Platform, Kubernetes, CircleCI, Jenkins, DataDog.
+current: true
+---
