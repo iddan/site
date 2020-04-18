@@ -5,7 +5,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  font-family: "Space Mono", monospace;
+  padding: 0;
 }
 article,
 aside,
