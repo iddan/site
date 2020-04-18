@@ -5,6 +5,35 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
+  - name: workplaces
+    label: Workplaces
+    label_singular: Workplace
+    folder: workplaces
+    create: true
+    fields:
+      - name: title
+        label: Title
+      - name: link
+        label: Link
+        regex: (?:http|https)\:\/\/.+\..+
+      - name: startDate
+        label: Start Date
+        widget: datetime
+        timeFormat: false
+        default: ""
+      - name: endDate
+        label: End Date
+        widget: datetime
+        timeFormat: false
+        default: ""
+        required: false
+      - name: description
+        label: Description
+        widget: text
+        required: false
+      - name: current
+        label: I currently work here
+        widget: boolean
   - name: projects
     label: Projects
     label_singular: Project
