@@ -14,11 +14,16 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/projects`,
-        name: "projects",
+        path: `${__dirname}/data`,
+        name: "data",
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-yaml`,
+      options: {
+        typeName: ({ node }) => node.relativeDirectory,
+      },
+    },
     `gatsby-plugin-netlify`,
   ],
 };

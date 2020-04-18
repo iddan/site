@@ -1,4 +1,3 @@
----
 title: progress-circle
 description: "Circular progress bar made with React, SVG and CSS Transitions."
 image: >-
@@ -6,4 +5,3 @@ image: >-
 imageSize: 1
 link: "https://github.com/iddan/progress-circle"
 startDate: 2017-01-31T21:36:49.101Z
----

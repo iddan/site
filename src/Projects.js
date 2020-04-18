@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { graphql, useStaticQuery } from "gatsby";
+import sortBy from "lodash.sortby";
 import Project from "./Project";
 
 const Projects = () => {
   const data = useStaticQuery(query);
-  const projects = transformData(data);
+  const projects = useMemo(() => {
+    return sortBy(transformData(data), (project) => project.startDate);
+  }, [data]);
   return (
     <>
       <h2>Projects</h2>
@@ -20,23 +23,22 @@ const Projects = () => {
 export default Projects;
 
 function transformData(data) {
-  return data.allMarkdownRemark.edges.map((edge) => edge.node.frontmatter);
+  return data.allProjects.nodes.map((node) => ({
+    ...node,
+    startDate: new Date(node.startDate),
+  }));
 }
 
 const query = graphql`
   {
-    allMarkdownRemark {
-      edges {
-        node {
-          frontmatter {
-            title
-            description
-            image
-            imageSize
-            link
-            startDate
-          }
-        }
+    allProjects {
+      nodes {
+        title
+        description
+        image
+        imageSize
+        link
+        startDate
       }
     }
   }
