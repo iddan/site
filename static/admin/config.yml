@@ -43,14 +43,20 @@ collections:
     folder: projects
     create: true
     fields:
-      - { name: title, label: Title }
-      - { name: description, label: Description }
-      - { name: image, label: Image, widget: "image" }
-      - { name: imageSize, label: Image Size, widget: "number" }
-      - { name: link, label: Link, regex: (?:http|https)\:\/\/.+\..+ }
-      - {
-          name: startDate,
-          label: Start Date,
-          widget: "datetime",
-          timeFormat: false,
-        }
+      - name: title
+        label: Title
+      - name: description
+        label: Description
+      - name: image
+        label: Image
+        widget: "image"
+      - name: imageSize
+        label: Image Size
+        widget: "number"
+      - name: link
+        label: Link
+        regex: (?:http|https)\:\/\/.+\..+
+      - name: startDate,
+        label: Start Date
+        widget: datetime
+        timeFormat: false
