@@ -9,7 +9,7 @@ collections:
     label: Workplaces
     label_singular: Workplace
     folder: data/workplaces
-    format: json
+    format: yml
     create: true
     fields:
       - name: title
@@ -42,7 +42,7 @@ collections:
     label: Projects
     label_singular: Project
     folder: data/projects
-    format: json
+    format: yml
     create: true
     fields:
       - name: title
