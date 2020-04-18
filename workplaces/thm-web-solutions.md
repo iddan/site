@@ -1,0 +1,11 @@
+---
+title: THM Web Solutions
+role: Software Engineer / Graphic Designer
+link: https://www.thm.co.il/
+startDate: 2014-07-31T21:00:00.000Z
+endDate: 2015-08-31T21:00:00.000Z
+description: Worked with customers on defining brand identities, designed logos,
+  websites, applications, and print artifacts. Developed websites using the MAMP
+  stack
+current: false
+---

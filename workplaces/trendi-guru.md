@@ -1,0 +1,14 @@
+---
+title: Trendi Guru
+role: Team Lead
+link: https://finder.startupnationcentral.org/company_page/trendi-guru
+startDate: 2016-05-31T21:00:00.000Z
+endDate: 2016-09-30T21:00:00.000Z
+description: Lead the building of a Chrome extension and commercial plugin, two
+  React.js applications, a node.js based messenger bot, and 3 sites. I took an
+  active part in the development of the mentioned services and designed all of
+  them by myself (from scratch to code). As part of the work, I regularly used
+  tools like Webpack, Sass, Babel, Yarn & npm, MongoDB, Google Cloud Platform,
+  GitHub, Atom, Illustrator, and Photoshop.
+current: false
+---
