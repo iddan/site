@@ -35,7 +35,7 @@ header aside {
   header aside {
     flex-direction: column;
     position: absolute;
-    top: 18px;
+    top: 30px;
   }
 
   header .settings {
