@@ -1,12 +1,6 @@
 @import "./typography.css";
+@import "./colors.css";
 
-html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-body {
-  margin: 0;
-}
 article,
 aside,
 details,
@@ -40,6 +34,7 @@ template {
 }
 a {
   background-color: transparent;
+  color: var(--primary);
   -webkit-text-decoration-skip: objects;
 }
 a:active,
@@ -186,6 +181,8 @@ html {
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 * {
   box-sizing: inherit;
@@ -197,7 +194,9 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  background-color: var(--background);
+  color: var(--color);
+  margin: 0;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -205,6 +204,10 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+}
+body.dark-mode,
+body.light-mode {
+  transition: all 0.15s;
 }
 img {
   max-width: 100%;
@@ -606,8 +609,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
-
-body.dark-mode {
-  background: #1a1a1a;
 }

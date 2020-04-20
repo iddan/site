@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 import "./layout.css";
 
-export default ({ children }) => {
+export default ({ children, longHeader }) => {
   return (
     <div>
       <Helmet
@@ -15,7 +15,7 @@ export default ({ children }) => {
           { name: "keywords", content: "iddan, aaronsohn" },
         ]}
       />
-      <Header />
+      <Header long={longHeader} />
       {children}
       <Footer />
     </div>

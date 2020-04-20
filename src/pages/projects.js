@@ -1,7 +1,9 @@
 import React, { useMemo } from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import sortBy from "lodash.sortby";
-import Project from "./Project";
+import Project from "../Project";
+import Layout from "../layout";
+import "./Projects.css";
 
 const Projects = () => {
   const data = useStaticQuery(query);
@@ -9,14 +11,16 @@ const Projects = () => {
     return sortBy(transformData(data), (project) => project.startDate);
   }, [data]);
   return (
-    <>
-      <h2>Projects</h2>
-      <section className="Projects">
-        {projects.map((project, index) => (
-          <Project key={index} {...project} />
-        ))}
-      </section>
-    </>
+    <Layout longHeader>
+      <div className="Projects">
+        <h2>Projects</h2>
+        <section className="Projects">
+          {projects.map((project, index) => (
+            <Project key={index} {...project} />
+          ))}
+        </section>
+      </div>
+    </Layout>
   );
 };
 

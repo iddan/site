@@ -1,0 +1,22 @@
+.Projects {
+  max-width: 80em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Projects h2 {
+  margin: 0 32px 48px;
+}
+
+@media (max-width: 600px) {
+  .Projects {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: no-wrap;
+  }
+
+  .Project {
+    margin-left: 0px;
+  }
+}

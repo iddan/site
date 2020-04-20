@@ -1,0 +1,17 @@
+@import "../elevation.css";
+
+.Workplaces {
+  margin: 0 36px;
+}
+
+.Workplaces h2 {
+  margin: 0 0 48px;
+}
+
+.Workplace {
+  padding: 36px;
+  border-radius: 8px;
+  background: var(--surface);
+  margin-bottom: 24px;
+  box-shadow: var(--elevation-z3);
+}

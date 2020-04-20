@@ -1,12 +1,26 @@
 @import "./colors.css";
 
 header {
-  padding: 36px 36px 72px;
+  padding: 36px;
   background: var(--surface);
-  box-shadow: 0px 130px 0px var(--surface);
   display: flex !important;
   flex-direction: row;
   transition: all 0.15s;
+}
+
+header.long {
+  box-shadow: 0px 130px 0px var(--surface);
+  padding: 36px 36px 72px;
+}
+
+.dark-mode header {
+  background-color: transparent;
+  box-shadow: none;
+  padding-bottom: 0;
+}
+
+.dark-mode header.long {
+  padding-bottom: 72px;
 }
 
 header h1 a {

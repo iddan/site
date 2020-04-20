@@ -5,20 +5,22 @@
  */
 
 :root {
-  --background: white;
-  --surface: #eee;
+  --background: #eee;
+  --surface: white;
   --color: rgba(0, 0, 0, 0.8);
   --ink: rgba(0, 0, 0, 0);
   --ink-hover: rgba(0, 0, 0, 0.1);
+  --primary: #e24228;
 }
 
 /**
- * When the website is in dark mode those colors will be used instead
- */
+* When the website is in dark mode those colors will be used instead
+*/
 .dark-mode {
-  --background: #1a1a1a;
-  --surface: black;
+  --background: black;
+  --surface: #1a1a1a;
   --color: rgba(255, 255, 255, 0.8);
   --ink: rgba(255, 255, 255, 0);
   --ink-hover: rgba(255, 255, 255, 0.1);
+  --primary: #ee7532;
 }

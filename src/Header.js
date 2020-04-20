@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import classNames from "classnames";
 
 import facebook from "../icons/facebook.svg";
 import twitter from "../icons/twitter.svg";
@@ -24,8 +25,8 @@ const DarkModeToggle = () => {
   );
 };
 
-const Header = () => (
-  <header>
+const Header = ({ long }) => (
+  <header className={classNames({ long })}>
     <h1>
       <Link to="/">iddan</Link>
     </h1>
