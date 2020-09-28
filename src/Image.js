@@ -5,7 +5,7 @@ const Image = ({ source, size }) => (
     className="Image"
     style={{
       backgroundSize: size && size * 100 + "%",
-      backgroundImage: `url(${source})`
+      backgroundImage: `url(${source})`,
     }}
   />
 );
