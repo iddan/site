@@ -8,5 +8,6 @@
     "public/": "explorerExcludedFiles",
     ".DS_Store": "explorerExcludedFiles",
     "yarn-error.log": "explorerExcludedFiles"
-  }
+  },
+  "editor.formatOnSave": true
 }
