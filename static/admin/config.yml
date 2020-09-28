@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
 
+site_url: https://aniddan.com
+display_url: https://aniddan.com
 media_folder: static/assets
 public_folder: assets
 
