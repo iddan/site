@@ -1,0 +1,21 @@
+@import "./icon-button.css";
+
+.SocialMedium img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: filter 0.15s;
+  pointer-events: none;
+}
+
+.SocialMedium:active img {
+  filter: invert(10);
+}
+
+.dark-mode .SocialMedium img {
+  filter: invert(10);
+}
+
+.dark-mode .SocialMedium:active img {
+  filter: invert(0);
+}

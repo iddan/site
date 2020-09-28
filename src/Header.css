@@ -4,23 +4,18 @@ header {
   padding: 36px;
   background: var(--surface);
   display: flex !important;
+  flex-wrap: wrap;
   flex-direction: row;
   transition: all 0.15s;
 }
 
 header.long {
   box-shadow: 0px 130px 0px var(--surface);
-  padding: 36px 36px 72px;
 }
 
 .dark-mode header {
   background-color: transparent;
   box-shadow: none;
-  padding-bottom: 0;
-}
-
-.dark-mode header.long {
-  padding-bottom: 72px;
 }
 
 header h1 a {
@@ -35,6 +30,10 @@ header h1 {
   margin-right: auto;
 }
 
+header nav {
+  width: 100vw;
+}
+
 header aside {
   display: flex;
   flex-direction: row;
@@ -42,7 +41,7 @@ header aside {
 
 @media (max-width: 512px) {
   header {
-    padding-bottom: 148px;
+    padding-bottom: 120px;
   }
 
   header .settings,
@@ -60,52 +59,12 @@ header aside {
     right: 18px;
   }
 
-  header aside .SocialMedia {
+  header aside .SocialMedium {
     margin-bottom: 24px;
   }
-}
 
-.SocialMedia,
-.DarkModeToggle {
-  width: 48px;
-  height: 48px;
-  padding: 10px;
-  border-radius: 50%;
-  margin-left: 32px;
-  background: var(--ink);
-  transition: background 0.15s;
-  text-align: center;
-  line-height: 28px;
-  font-size: 28px;
-  outline: none;
-  cursor: pointer;
-}
-
-.SocialMedia:hover,
-.DarkModeToggle:hover {
-  background: var(--ink-hover);
-}
-
-.SocialMedia:active,
-.DarkModeToggle:active {
-  background: var(--color);
-}
-
-.SocialMedia img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  transition: filter 0.15s;
-}
-
-.SocialMedia:active img {
-  filter: invert(10);
-}
-
-.dark-mode .SocialMedia img {
-  filter: invert(10);
-}
-
-.dark-mode .SocialMedia:active img {
-  filter: invert(0);
+  header nav ul {
+    width: 10em;
+    flex-direction: column;
+  }
 }

@@ -13,7 +13,6 @@ const Projects = () => {
   return (
     <Layout longHeader>
       <div className="Projects">
-        <h2>Projects</h2>
         <section className="Projects">
           {projects.map((project, index) => (
             <Project key={index} {...project} />

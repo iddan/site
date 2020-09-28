@@ -1,0 +1,29 @@
+@import "./colors.css";
+
+nav {
+  margin-top: 32px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 32px;
+  font-size: 1.5rem;
+}
+
+nav ul li a {
+  color: var(--dimmed-color);
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: inherit;
+  font-style: italic;
+  font-weight: bold;
+}

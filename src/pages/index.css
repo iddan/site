@@ -3,7 +3,12 @@
   min-height: calc(100vh - (36px * 2 + 2.25em));
 }
 
-.Home h2 {
-  margin: 72px 0;
+.Home h3 {
+  margin: 48px 0;
   font-size: 2.5rem;
+  font-style: italic;
+}
+
+.Home p {
+  max-width: 40em;
 }

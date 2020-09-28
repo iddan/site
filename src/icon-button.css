@@ -1,0 +1,22 @@
+.icon-button {
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 32px;
+  background-color: var(--ink);
+  transition: background-color 0.15s;
+  text-align: center;
+  line-height: 28px;
+  font-size: 28px;
+  outline: none;
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  background: var(--ink-hover);
+}
+
+.icon-button:active {
+  background: var(--color);
+}

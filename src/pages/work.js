@@ -17,7 +17,6 @@ const Work = () => {
   return (
     <Layout longHeader>
       <div className="Workplaces">
-        <h2>Work</h2>
         {workplaces.map((workplace, index) => {
           return <Workplace workplace={workplace} key={index} />;
         })}

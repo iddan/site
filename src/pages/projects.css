@@ -5,10 +5,6 @@
   flex-wrap: wrap;
 }
 
-.Projects h2 {
-  margin: 0 32px 48px;
-}
-
 @media (max-width: 600px) {
   .Projects {
     flex-direction: column;
