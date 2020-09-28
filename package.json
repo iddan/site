@@ -13,7 +13,7 @@
     "gatsby-source-filesystem": "^2.3.30",
     "gatsby-transformer-yaml": "^2.4.12",
     "lodash.sortby": "^4.7.0",
-    "netlify-cms": "^2.10.60",
+    "netlify-cms-app": "^2.12.24",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
