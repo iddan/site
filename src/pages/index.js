@@ -1,10 +1,12 @@
 import React from "react";
 import Layout from "../layout";
+import SEO from "../SEO";
 import "./index.css";
 
 export default () => {
   return (
     <Layout>
+      <SEO title="Home" />
       <div className="Home">
         <h3>hello,</h3>
         <p>

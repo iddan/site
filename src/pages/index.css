@@ -1,14 +1,14 @@
 .Home {
-  margin: 0 36px;
+  margin: 0 24px;
   min-height: calc(100vh - (36px * 2 + 2.25em));
 }
 
 .Home h3 {
-  margin: 48px 0;
+  margin: 1em 0;
   font-size: 2.5rem;
   font-style: italic;
 }
 
 .Home p {
-  max-width: 40em;
+  max-width: 22em;
 }

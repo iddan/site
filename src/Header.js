@@ -8,7 +8,7 @@ import DarkModeToggle from "./DarkModeToggle";
 import "./Header.css";
 
 const Header = ({ long }) => (
-  <header className={classNames({ long })}>
+  <header className={classNames("Header", { long })}>
     <h1>
       <Link to="/">iddan</Link>
     </h1>

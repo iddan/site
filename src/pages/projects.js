@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import sortBy from "lodash.sortby";
 import Project from "../Project";
 import Layout from "../layout";
+import SEO from "../SEO";
 import "./Projects.css";
 
 const Projects = () => {
@@ -12,13 +13,12 @@ const Projects = () => {
   }, [data]);
   return (
     <Layout longHeader>
-      <div className="Projects">
-        <section className="Projects">
-          {projects.map((project, index) => (
-            <Project key={index} {...project} />
-          ))}
-        </section>
-      </div>
+      <SEO title="Projects" />
+      <section className="Projects">
+        {projects.map((project, index) => (
+          <Project key={index} {...project} />
+        ))}
+      </section>
     </Layout>
   );
 };

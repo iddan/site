@@ -3,7 +3,8 @@ import { graphql, useStaticQuery } from "gatsby";
 import sortBy from "lodash.sortby";
 import Layout from "../layout";
 import Workplace from "../Workplace";
-import "./work.css";
+import SEO from "../SEO";
+import "../card-list.css";
 
 const Work = () => {
   const data = useStaticQuery(query);
@@ -16,11 +17,12 @@ const Work = () => {
 
   return (
     <Layout longHeader>
-      <div className="Workplaces">
-        {workplaces.map((workplace, index) => {
-          return <Workplace workplace={workplace} key={index} />;
-        })}
-      </div>
+      <SEO title="Work" />
+      <section className="CardList">
+        {workplaces.map((workplace, index) => (
+          <Workplace workplace={workplace} key={index} />
+        ))}
+      </section>
     </Layout>
   );
 };

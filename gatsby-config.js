@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `iddan`,
+    description: `Iddan Aaronsohn's personal site`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,6 +25,7 @@ module.exports = {
         typeName: ({ node }) => node.relativeDirectory,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-netlify`,
   ],
 };

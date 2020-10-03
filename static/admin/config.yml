@@ -7,17 +7,23 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
-  - name: posts
-    label: Posts
-    label_singular: Post
-    folder: data/posts
+  - name: blog
+    label: Blog Posts
+    label_singular: Blog Post
+    folder: data/blog
     format: frontmatter
     create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
     fields:
       - name: title
         label: Title
+      - name: description
+        label: Description
+        widget: text
       - name: body
-        label: Body
+        label: Content
         widget: markdown
   - name: workplaces
     label: Workplaces

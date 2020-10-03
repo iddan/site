@@ -14,14 +14,19 @@ const Navigation = () => (
       <li>
         <Item to="/work">Work</Item>
       </li>
+      <li>
+        <Item to="/blog" partiallyActive>
+          Blog
+        </Item>
+      </li>
     </ul>
   </nav>
 );
 
 export default Navigation;
 
-const Item = ({ to, children }) => (
-  <Link activeClassName="active" to={to}>
+const Item = ({ to, children, partiallyActive }) => (
+  <Link activeClassName="active" to={to} partiallyActive={partiallyActive}>
     {children}
   </Link>
 );
