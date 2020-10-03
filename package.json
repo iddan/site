@@ -34,12 +34,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.10.0",
+    "eslint": "6.x",
     "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "4.x",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.2",
+    "eslint-plugin-react-hooks": "2.x",
     "prettier": "^2.1.2"
   }
 }
