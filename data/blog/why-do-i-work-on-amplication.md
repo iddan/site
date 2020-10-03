@@ -10,7 +10,7 @@ The thing is simplifying solutions has a price tag: it makes them less flexible 
 
 It doesn’t help that most low code platforms are proprietary. In this decade developers got used to the fact that most of their tools are open source: libraries. programming languages, infrastructure even their IDEs. With open-source, if I miss a feature I can just fork the code and make the changes I need or at least have an open discussion with the maintainer and the community. In contrast, today’s Low Code systems are closed source and are managed by enterprises that require you to send them a support request when you miss something and have complete control over what is getting into the product and whatnot. In other domains, history proved this system for developer tools is wrong.
 
-With Amplication we are looking to disrupt the Low Code scene with an open-source product. By going open source we are letting developers own their tool and also giving solutions for common problems with making low code tools that we hope will help advance the low code movement as a whole.
+With [Amplication](https://amplication.com/) we are looking to disrupt the Low Code scene with an open-source product. By going open source we are letting developers own their tool and also giving solutions for common problems with making low code tools that we hope will help advance the low code movement as a whole.
 
 I hope that in the near future with Amplication developers will be able to deliver data services without knowing git, a programming language syntax, types an API framework, Admin UI framework, ORM, SQL, Docker, cloud deployment, or how to implement RBAC while still own software that includes all of them so if they do know those they will be able to modify the code
 
