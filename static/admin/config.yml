@@ -7,6 +7,18 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: data/posts
+    format: frontmatter
+    create: true
+    fields:
+      - name: title
+        label: Title
+      - name: body
+        label: Body
+        widget: markdown
   - name: workplaces
     label: Workplaces
     label_singular: Workplace
