@@ -9,6 +9,11 @@
   box-shadow: var(--elevation-z3);
 }
 
+.BlogPost h1 {
+  line-height: 1.5em;
+  font-style: italic;
+}
+
 @media (max-width: 512px) {
   .BlogPost {
     margin: 0 0 24px;
