@@ -10,5 +10,6 @@
 }
 
 .Home p {
-  max-width: 22em;
+  max-width: 40em;
+  margin: 0.5em 0;
 }
