@@ -3,6 +3,7 @@ import facebook from "../icons/facebook.svg";
 import twitter from "../icons/twitter.svg";
 import github from "../icons/github.svg";
 import instagram from "../icons/instagram.svg";
+import hackerNews from "../icons/hacker-news.svg";
 import "./SocialMedia.css";
 
 const SocialMedia = () => {
@@ -22,6 +23,11 @@ const SocialMedia = () => {
         title="GitHub"
         link="https://github.com/iddan"
         icon={github}
+      />
+      <SocialMedium
+        title="Hacker News"
+        link="https://news.ycombinator.com/user?id=iddan"
+        icon={hackerNews}
       />
       <SocialMedium
         title="Instagram"
