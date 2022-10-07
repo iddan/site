@@ -10,7 +10,9 @@ import "./Header.css";
 const Header = ({ long }) => (
   <header className={classNames("Header", { long })}>
     <h1>
-      <Link to="/">iddan</Link>
+      <Link to="/" title="Home">
+        iddan
+      </Link>
     </h1>
     <section className="settings">
       <DarkModeToggle />

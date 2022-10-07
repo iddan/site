@@ -8,7 +8,11 @@ const LIGHT_EMOJI = "☀️";
 const DarkModeToggle = () => {
   const { value, toggle } = useDarkMode();
   return (
-    <div className="DarkModeToggle icon-button" onClick={toggle}>
+    <div
+      className="DarkModeToggle icon-button"
+      onClick={toggle}
+      title="Change appearance"
+    >
       {value ? DARK_EMOJI : LIGHT_EMOJI}
     </div>
   );

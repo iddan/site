@@ -9,22 +9,22 @@ const SocialMedia = () => {
   return (
     <>
       <SocialMedium
-        alt="Facebook"
+        title="Facebook"
         link="https://facebook.com/theiddan"
         icon={facebook}
       />
       <SocialMedium
-        alt="Twitter"
+        title="Twitter"
         link="https://twitter.com/iddan"
         icon={twitter}
       />
       <SocialMedium
-        alt="GitHub"
+        title="GitHub"
         link="https://github.com/iddan"
         icon={github}
       />
       <SocialMedium
-        alt="Instagram"
+        title="Instagram"
         link="https://instagram.com/aniddan"
         icon={instagram}
       />
@@ -34,8 +34,8 @@ const SocialMedia = () => {
 
 export default SocialMedia;
 
-const SocialMedium = ({ link, icon, alt }) => (
-  <a className="SocialMedium icon-button" href={link}>
-    <img alt={alt} src={icon} />
+const SocialMedium = ({ link, icon, title }) => (
+  <a className="SocialMedium icon-button" href={link} title={title}>
+    <img alt={`${title}-icon`} src={icon} />
   </a>
 );
