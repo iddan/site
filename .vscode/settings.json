@@ -3,5 +3,12 @@
     "editor.formatOnSave": true
   },
   "editor.formatOnSave": true,
-  "cSpell.words": ["Aaronsohn", "Iddan"]
+  "cSpell.words": ["Aaronsohn", "Iddan"],
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "*.md"
+    }
+  ]
 }

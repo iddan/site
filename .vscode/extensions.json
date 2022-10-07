@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "znck.grammarly",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint"
+  ]
+}
