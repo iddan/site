@@ -1,7 +1,9 @@
 ---
 title: Why do I work on Amplication
 description: I started working on Amplicaiton in July 2020. Here's why.
+date: 2020-10-03
 ---
+
 I love to teach, teaching allows me to reassert the lessons I’ve learned and discovered logical leaps I’ve made. Another thing is through the lenses of fresh eyes I discover unsolved problems in the onboarding of a person to a new subject. Programming is a great example of that. Syntax, source control, naming conventions, code sharing, and testing are a few problems that I find beginners struggle with again and again. Those skills are important for writing quality code but what if you don’t want to write code? Maybe you have little background in programming, have experience with a completely different coding environment, or just need to get a thing done ASAP.
 
 Any coding environment has a learning curve, but what if we could flatten the curve? This is the general mission of the Low Code movement: making coding more accessible by simplifying the workflow of developers.

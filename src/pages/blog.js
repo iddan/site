@@ -3,6 +3,7 @@ import { useStaticQuery, Link, graphql } from "gatsby";
 import Layout from "../layout";
 import SEO from "../SEO";
 import "../card-list.css";
+import "./blog.css";
 
 const Blog = () => {
   const data = useStaticQuery(query);
@@ -23,7 +24,9 @@ const Blog = () => {
                   <span itemProp="headline">{post.frontmatter.title}</span>
                 </Link>
               </h2>
-              <small>{post.frontmatter.date}</small>
+              <small>
+                {new Date(post.frontmatter.date).toLocaleDateString()}
+              </small>
             </header>
             <section>
               <p
@@ -51,7 +54,7 @@ const query = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+          date(formatString: "YYYY-MM-DD")
           title
           description
         }
