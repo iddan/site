@@ -25,7 +25,15 @@ const Navigation = () => (
 
 export default Navigation;
 
-const Item = ({ to, children, partiallyActive }) => (
+const Item = ({
+  to,
+  children,
+  partiallyActive = false,
+}: {
+  to: string;
+  children: React.ReactNode;
+  partiallyActive?: boolean;
+}) => (
   <Link activeClassName="active" to={to} partiallyActive={partiallyActive}>
     {children}
   </Link>

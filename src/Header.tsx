@@ -7,7 +7,7 @@ import DarkModeToggle from "./DarkModeToggle";
 
 import "./Header.css";
 
-const Header = ({ long }) => (
+const Header = ({ long }: { long?: boolean }) => (
   <header className={classNames("Header", { long })}>
     <h1>
       <Link to="/" title="Home">

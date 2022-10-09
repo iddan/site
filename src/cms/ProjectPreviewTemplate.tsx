@@ -1,13 +1,14 @@
 import React from "react";
-import Project from "../Project";
+import Project, { ProjectProps } from "../Project";
 
 /**
  * Passes project entry data to the Project component
  */
-export const ProjectPreviewTemplate = ({ entry }) => {
+export const ProjectPreviewTemplate = ({ entry }: { entry: unknown }) => {
   /**
    * entry is a {@link https://immutable-js.github.io/immutable-js/docs/#/Map | ImmutableJS Map}
    */
-  const data = entry.get("data").toObject();
+  // @ts-expect-error
+  const data: ProjectProps = entry.get("data").toObject();
   return <Project {...data} />;
 };

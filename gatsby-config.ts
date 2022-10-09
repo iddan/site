@@ -1,4 +1,6 @@
-module.exports = {
+import { GatsbyConfig } from "gatsby";
+
+const config: GatsbyConfig = {
   siteMetadata: {
     title: `iddan`,
     description: `Iddan Aaronsohn's personal site`,
@@ -8,7 +10,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
+        modulePath: `${__dirname}/src/cms/cms.ts`,
       },
     },
     "gatsby-plugin-use-dark-mode",
@@ -22,6 +24,7 @@ module.exports = {
     {
       resolve: `gatsby-transformer-yaml`,
       options: {
+        // @ts-ignore
         typeName: ({ node }) => node.relativeDirectory,
       },
     },
@@ -31,3 +34,5 @@ module.exports = {
     "gatsby-plugin-meta-redirect",
   ],
 };
+
+export default config;

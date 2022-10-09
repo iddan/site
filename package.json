@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Iddan Aaronsohn <mail@aniddan.com>",
   "dependencies": {
-    "classnames": "^2.2.6",
+    "classnames": "^2.3.2",
     "gatsby": "^4.14.1",
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-netlify": "^4.4.0",
@@ -27,7 +27,6 @@
     "gatsby"
   ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -36,8 +35,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@types/lodash.sortby": "^4.7.7",
+    "@types/node": "^18.8.3",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-helmet": "^6.1.6",
+    "@types/react-textfit": "^1.1.0",
     "eslint": "^8.16.0",
     "eslint-config-react-app": "^7.0.1",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "typescript": "^4.9.4"
   }
 }

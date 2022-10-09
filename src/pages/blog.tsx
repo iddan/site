@@ -5,8 +5,24 @@ import SEO from "../SEO";
 import "../card-list.css";
 import "./blog.css";
 
+type Data = {
+  allMarkdownRemark: {
+    nodes: Array<{
+      fields: {
+        slug: string;
+      };
+      excerpt: string;
+      frontmatter: {
+        title: string;
+        date: Date;
+        description: string;
+      };
+    }>;
+  };
+};
+
 const Blog = () => {
-  const data = useStaticQuery(query);
+  const data = useStaticQuery<Data>(query);
   return (
     <Layout longHeader>
       <SEO title="Blog" />

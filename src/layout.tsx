@@ -4,7 +4,13 @@ import Footer from "./Footer";
 
 import "./layout.css";
 
-export default ({ children, longHeader }) => {
+const Layout = ({
+  children,
+  longHeader = false,
+}: {
+  children: React.ReactNode;
+  longHeader?: boolean;
+}) => {
   return (
     <>
       <Header long={longHeader} />
@@ -13,3 +19,5 @@ export default ({ children, longHeader }) => {
     </>
   );
 };
+
+export default Layout;
