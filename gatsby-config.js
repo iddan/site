@@ -27,5 +27,7 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-netlify`,
+    "gatsby-redirect-from",
+    "gatsby-plugin-meta-redirect",
   ],
 };

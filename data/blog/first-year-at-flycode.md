@@ -1,7 +1,10 @@
 ---
-title: Reflecting on my first year in FlyCode
+title: Reflecting on my first year at FlyCode
 description: A retrospective on my first year as a founding engineer at FlyCode
 date: 2020-10-07
+redirect_from:
+  - /blog/first-year-in-flycode
+  - /blog/first-year-in-flycode/
 ---
 
 Recently, it's been a year since I joined [FlyCode](https://flycode.com) as a founding engineer. Coincidentally, I got a quieter weekend so I decided to reflect a bit on my first year at the startup.
