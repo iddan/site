@@ -10,5 +10,6 @@
       "scheme": "file",
       "pattern": "*.md"
     }
-  ]
+  ],
+  "cSpell.language": "en,en-GB"
 }
