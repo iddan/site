@@ -6,17 +6,19 @@ import Workplace from "../Workplace";
 import SEO from "../SEO";
 import "../card-list.css";
 
+type WorkplaceNode = {
+  title: string;
+  startDate: string;
+  role: string;
+  link: string;
+  endDate: string | null;
+  description: string;
+  current: boolean;
+};
+
 type Data = {
   allWorkplaces: {
-    nodes: Array<{
-      title: string;
-      startDate: string;
-      role: string;
-      link: string;
-      endDate: string;
-      description: string;
-      current: string;
-    }>;
+    nodes: WorkplaceNode[];
   };
 };
 
@@ -44,11 +46,15 @@ const Work = () => {
 export default Work;
 
 function transformData(data: Data) {
-  return data.allWorkplaces.nodes.map((node) => ({
+  return data.allWorkplaces.nodes.map(parseWorkplace);
+}
+
+export function parseWorkplace(node: WorkplaceNode) {
+  return {
     ...node,
     startDate: new Date(node.startDate),
     endDate: node.endDate ? new Date(node.endDate) : null,
-  }));
+  };
 }
 
 const query = graphql`
