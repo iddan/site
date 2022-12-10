@@ -6,8 +6,21 @@ import Layout from "../layout";
 import SEO from "../SEO";
 import "./Projects.css";
 
+type Data = {
+  allProjects: {
+    nodes: Array<{
+      title: string;
+      description: string;
+      image: string;
+      imageSize: number;
+      link: string;
+      startDate: string;
+    }>;
+  };
+};
+
 const Projects = () => {
-  const data = useStaticQuery(query);
+  const data = useStaticQuery<Data>(query);
   const projects = useMemo(() => {
     return sortBy(transformData(data), (project) => project.startDate);
   }, [data]);
@@ -25,7 +38,7 @@ const Projects = () => {
 
 export default Projects;
 
-function transformData(data) {
+function transformData(data: Data) {
   return data.allProjects.nodes.map((node) => ({
     ...node,
     startDate: new Date(node.startDate),

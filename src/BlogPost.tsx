@@ -4,7 +4,20 @@ import Layout from "./layout";
 import SEO from "./SEO";
 import "./BlogPost.css";
 
-const BlogPost = ({ data }) => {
+/** @todo infer from graphql */
+type Data = {
+  markdownRemark: {
+    excerpt: string;
+    html: string;
+    frontmatter: {
+      title: string;
+      description: string;
+      date: string;
+    };
+  };
+};
+
+const BlogPost = ({ data }: { data: Data }) => {
   const post = data.markdownRemark;
   const { title } = post.frontmatter;
 

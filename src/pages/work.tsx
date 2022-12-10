@@ -6,8 +6,22 @@ import Workplace from "../Workplace";
 import SEO from "../SEO";
 import "../card-list.css";
 
+type Data = {
+  allWorkplaces: {
+    nodes: Array<{
+      title: string;
+      startDate: string;
+      role: string;
+      link: string;
+      endDate: string;
+      description: string;
+      current: string;
+    }>;
+  };
+};
+
 const Work = () => {
-  const data = useStaticQuery(query);
+  const data = useStaticQuery<Data>(query);
   const workplaces = useMemo(() => {
     return sortBy(
       transformData(data),
@@ -29,11 +43,11 @@ const Work = () => {
 
 export default Work;
 
-function transformData(data) {
+function transformData(data: Data) {
   return data.allWorkplaces.nodes.map((node) => ({
     ...node,
     startDate: new Date(node.startDate),
-    endDate: node.endDate && new Date(node.endDate),
+    endDate: node.endDate ? new Date(node.endDate) : null,
   }));
 }
 

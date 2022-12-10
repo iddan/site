@@ -40,7 +40,15 @@ const SocialMedia = () => {
 
 export default SocialMedia;
 
-const SocialMedium = ({ link, icon, title }) => (
+const SocialMedium = ({
+  link,
+  icon,
+  title,
+}: {
+  link: string;
+  icon: string;
+  title: string;
+}) => (
   <a className="SocialMedium icon-button" href={link} title={title}>
     <img alt={`${title}-icon`} src={icon} />
   </a>
