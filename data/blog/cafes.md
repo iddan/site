@@ -43,3 +43,16 @@ Nahat Coffee is a micro-roastery ran by two coffee experts. In addition to their
 
 - The main store: [1 Dizengoff Square, Tel Aviv-Yafo](https://goo.gl/maps/g72SCY81YTunLNYdA)
 - The Herzliya store: [168 Wingate St, Herzliya](https://goo.gl/maps/6uXiykoxzjGC67aZ6)
+
+### [Cafetish](https://www.instagram.com/cafetish.coffee)
+
+Hidden inside the Montefiore neighborhood (not to be confused with Montefiore street), Caffetish is an excellent coffee micro-roastery that serves the locales, techies working nearby it (recently the neighborhood got connected with the tech park that resides on the other end of the Ayalon river). The coffee place is quiet, minimalist, and down to earth. A well kept secret in plain sight.
+
+- Store: [21 Sderot Yehudit St, Tel Aviv-Yafo](https://goo.gl/maps/GGQmXUGzfjVyjqfY8)
+
+### [Edmund Coffee](https://www.facebook.com/Edmundcoffee/)
+
+Edmund is the poster hipster coffee of Tel Aviv. Ran by 4 incredible men, who I got to befriend during the year I lived above it Edmund is a place that will make you feel at home and chic at the same time. Other than excellent coffee that they source from Nahat, they have Thema's matcha (a business I got to hear dreams about from the owner before she even started it, but nonetheless excellent matcha) and delicious pastries and food!
+
+- The main store: [33 Yehuda Halevi St, Tel Aviv](https://goo.gl/maps/B38WHN9FXTj5v92i9)
+- The Bavli store (more residential and for parents): [Toledano St 6, Tel Aviv-Yafo](https://goo.gl/maps/zEQztDJrZokC6JZV8)
