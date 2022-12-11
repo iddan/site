@@ -29,3 +29,17 @@ Self described as: fresh local vegetarian deli with great coffee. Couldn't descr
 
 - Bazel square store (the old north): [20 Ashtori HaFarhi St, Tel Aviv-Yafo](https://goo.gl/maps/r8HiU8w2UnybZRnn8)
 - Mikve Israel store (near the historical centre): [23 Mikve Israel St, Tel Aviv-Yafo](https://goo.gl/maps/oHR67RESLZ3pkDcv6)
+
+### [Timothy](https://www.facebook.com/timothycafetlv/)
+
+Another great coffee roasters. Timothy have stated with a small store just on the brink of the Yarkun river. Later, they expanded the store to also include a dedicated quiet office space and opened another branch in the Levinski market downtown.
+
+- The main store: [187 Shlomo Ibn Gabirol St, Tel Aviv-Yafo](https://goo.gl/maps/akYhk3iTeuoC53B1A)
+- The Levinksi market store: [9 Zevulun St, Tel Aviv-Yafo](https://goo.gl/maps/1zezrxNtpgKgyBRf6)
+
+### [Nahat Coffee](https://www.nahatcoffee.com/)
+
+Nahat Coffee is a micro-roastery ran by two coffee experts. In addition to their supreme coffee, I love their graphic design and story-telling about coffee.
+
+- The main store: [1 Dizengoff Square, Tel Aviv-Yafo](https://goo.gl/maps/g72SCY81YTunLNYdA)
+- The Herzliya store: [168 Wingate St, Herzliya](https://goo.gl/maps/6uXiykoxzjGC67aZ6)
