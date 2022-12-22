@@ -4,7 +4,7 @@ description: My favourite coffee places
 date: 2022-12-10
 ---
 
-I love drinking coffee but not any coffee. Fortunately, there are plenty of specialty coffee places I find their coffee really good. I'll try to keep this list up to date:
+I love drinking coffee but it gotta be good (for the snobs: I like my coffee with low acidity, full body and usually dark roasted). Fortunately, there are plenty of specialty coffee places I like. This list includes the ones I like the most.
 
 ## Tel Aviv
 
@@ -65,6 +65,12 @@ Origem (portuguese for origin) is a coffee place stated by a Brazilian whose dau
 
 ### [Coffee Shop 51](https://www.coffeeshop51.com/)
 
-In the middle of one of the streets with the most beautiful buildings in Tel Aviv resides a café with a large garden filled with hipsters drinking freshly roasted coffee. This place is Coffee 51 and it's located in Ahad Ha'am St. Aside from the excellent coffee, take some time to stroll around the beautiful buildings built in the unique eclectic Tel Avivi style.
+In the middle of one of the streets with the most beautiful buildings in Tel Aviv resides a café with a large garden filled with hipsters drinking freshly roasted coffee. This place is Coffee 51 and it's located in Ahad Ha'am St. Aside from the excellent coffee, take some time to stroll around the beautiful buildings built in the unique eclectic Tel Avivi style. It is my favourite place for Shabbat noon coffee as most of the stores are closed on Saturday.
 
 - Store: [51 Ahad Ha'am St, Tel Aviv-Yafo](https://goo.gl/maps/kSD1YBVfVBUgj2wB8)
+
+### [Chacho's Cafe](https://www.chachoscafe.com/)
+
+A "hole-in-the-wall" kind of cafe where you sit outside in the street (but a very cosy quiet street with breeze in the summer). Chacho's is a small coffee place with excellent coffee giving a good fight to the other specialty coffee places while staying grounded and humble. You would still find the hipster specialty coffee types here but the atmosphere is very home-y. My favourite for a cup coffee just before the city starts to prepare for Shabbat dinners with my friends. Also if you want an alternative source for caffeine, they have a good matcha
+
+- Store: [51 Ge'ula St, Tel Aviv-Yafo](https://goo.gl/maps/tZAUGhTS3viXeUP37)

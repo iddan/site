@@ -3,7 +3,7 @@
     "editor.formatOnSave": true
   },
   "editor.formatOnSave": true,
-  "cSpell.words": ["Aaronsohn", "Iddan"],
+  "cSpell.words": ["Aaronsohn", "Iddan", "matcha"],
   "grammarly.selectors": [
     {
       "language": "markdown",
