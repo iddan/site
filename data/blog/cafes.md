@@ -86,6 +86,14 @@ In the middle of Machne Yehuda market in Jerusalem there's a small shop roasting
 - The Be'er Sheva store: [Ya'akov Cohen St 12, Be'er Sheva](https://goo.gl/maps/ZBbD1eifVUr3pUmu8)
 - The Modiin store: [Dam HaMacbim St 55, Modi'in-Maccabim-Re'ut](https://goo.gl/maps/VudxBSPqV4SzakyN6)
 
+## Be'er Sheva
+
+### [Trés Jolie](https://www.instagram.com/tres_jolie_patisserie/)
+
+Be'er Sheva has a special residence and business area called "The Block". Inside of it reside the excellent restaurant and cafe of the same owner: Oh La La and Trés Jolie. There, you will find menus that would be as fitting as if they were in the centre of Tel Aviv. The coffee is a special mix made for the café and served in handmade ceramic cups. The cafe is self-titled a patisserie for a good reason: featuring french style pastries (unfortunately since I become vegan before the opening I can only testify for the vegan brownie - which was good!). The playlist of classic chansons definitely adds to the Parisian vibe.
+
+### [Roasters](#roasters)
+
 ## Lisbon
 
 _I visited Lisbon in 2022 and fell in love with the city, and it's local coffee scene which is both unpretentious yet rich_
