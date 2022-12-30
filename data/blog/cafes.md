@@ -6,6 +6,13 @@ date: 2022-12-10
 
 I love drinking coffee but it gotta be good (for the snobs: I like my coffee with low acidity, full body and usually dark roasted). Fortunately, there are plenty of specialty coffee places I like. This list includes the ones I like the most.
 
+## Table of Contents
+
+- [Tel Aviv](#tel-aviv)
+- [Jerusalem](#jerusalem)
+- [Be'er Sheva](#beer-sheva)
+- [Lisbon](#lisbon)
+
 ## Tel Aviv
 
 ### [Mae Café](https://www.maecafe.com/)
