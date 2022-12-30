@@ -75,6 +75,17 @@ A "hole-in-the-wall" kind of cafe where you sit outside in the street (but a ver
 
 - Store: [Ge'ula St. 51, Tel Aviv-Yafo](https://goo.gl/maps/tZAUGhTS3viXeUP37)
 
+## Jerusalem
+
+### [Roasters](https://www.roastersjlm.com/)
+
+In the middle of Machne Yehuda market in Jerusalem there's a small shop roasting fresh coffee every day and a small group of customers sitting on a bar and the next room enjoying world-class coffee in the heart of Jerusalem. Roasters is the poster third-generation coffee place and in every visit to the capital I visit it for a good cup of joe. But, do not come on busy market days! It gets really cramped around it. On regular weekdays it's great to go through the market, maybe get something to eat and sit down for a cup of coffee. Recently they opened a few other branches through Israel that I didn't get to visit yet.
+
+- The main store: [HaAfarsek St 20, Jerusalem](https://goo.gl/maps/FSbZCo9CoyiWu8rJ8)
+- The Jerusalem city center store: [Betsal'el St 2, Jerusalem](https://goo.gl/maps/PCHajhBM94idawPs7)
+- The Be'er Sheva store: [Ya'akov Cohen St 12, Be'er Sheva](https://goo.gl/maps/ZBbD1eifVUr3pUmu8)
+- The Modiin store: [Dam HaMacbim St 55, Modi'in-Maccabim-Re'ut](https://goo.gl/maps/VudxBSPqV4SzakyN6)
+
 ## Lisbon
 
 _I visited Lisbon in 2022 and fell in love with the city, and it's local coffee scene which is both unpretentious yet rich_
