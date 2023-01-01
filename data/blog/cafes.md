@@ -6,11 +6,12 @@ date: 2022-12-10
 
 I love drinking coffee but it gotta be good (for the snobs: I like my coffee with low acidity, full body and usually dark roasted). Fortunately, there are plenty of specialty coffee places I like. This list includes the ones I like the most.
 
-## Table of Contents
+# Table of Contents
 
 - [Tel Aviv](#tel-aviv)
 - [Jerusalem](#jerusalem)
 - [Be'er Sheva](#beer-sheva)
+- [Rome](#rome)
 - [Lisbon](#lisbon)
 
 ## Tel Aviv
@@ -103,7 +104,7 @@ Be'er Sheva has a special residence and business area called "The Block". Inside
 
 ## Lisbon
 
-_I visited Lisbon in 2022 and fell in love with the city, and it's local coffee scene which is both unpretentious yet rich_
+_I visited Lisbon with my mom in 2022 and fell in love with the city, and it's local coffee scene which is both unpretentious yet rich_
 
 ### [Simpli Coffee](https://simpli.pt/en/home/)
 
@@ -113,3 +114,37 @@ The first specialty coffee place I got to visit in the city is Simpli. I adore t
 - Picoas - [Av. Fontes Pereira de Melo nº41 loja C, 1050-119, Lisboa](https://goo.gl/maps/CHBqxqUmACergTF68)
 - Rosa Araújo - [Rua Rosa Araújo 17 1250-194, Lisboa](https://goo.gl/maps/MCZ2eXKsX3qokg6q6)
 - Chiado - [Largo de São Carlos, 5, 1200-410, Lisboa](https://goo.gl/maps/K9q2t3KsbJDLmLLy6)
+
+### [Bettina Corallo](https://bettinacorallo.com/en)
+
+Even though this place specialises in chocolate (they treat cacao beans as specialty coffee places treat coffee beans) this cute small store has excellent coffee from Brazil. The store is a family business ran by a family that used to live in the Democratic Republic of Congo to Lisbon and brought with them special knowledge about cacao. The passion for excellent coffee and cacao is felt from the moment you enter the store.
+
+- Store: [R. da Escola Politécnica 4, 1250-096 Lisboa](https://goo.gl/maps/LshJnrJ1yn93dmiz6)
+
+### [Numa Café](https://www.instagram.com/numacafe.lisboa)
+
+This chic coffee place is always hosting the local matcha girls, hipsters, but also regular people that just look for quality coffee and food. With minimalist design celebrating the sunshine and natural wood you can enjoy a good cup of coffee in Numa with a pastry (the menu changes daily, so there's something fresh every day!). The menu is GF and vegan friendly (for reals).
+
+- Store: [R. da Escola Politécnica 94, 1250-100 Lisboa](https://goo.gl/maps/VmUjmGYYRH4BhbWJ6)
+
+### [Baobá Café](https://www.instagram.com/baobacafe.portugal)
+
+- Store: [Rua de S. Paulo 256 a 258, 1200-430 Lisboa, Portugal](https://goo.gl/maps/W5qoH9aeyEYaeoUPA)
+
+### [Tanoa Café](https://en.tanoaflavor.com/)
+
+- Store: [R. da Rosa 27, 1200-381 Lisboa](https://goo.gl/maps/KfzTjktbxWRzy7vWA)
+
+### [A LOBA'MA](https://www.instagram.com/aloba.ma)
+
+- Store: [R. Infantaria 16 123, 1350-166 Lisboa](https://goo.gl/maps/4ZN5BAUrqVmFVU1b6)
+
+## Rome
+
+_I visited Rome with my mom in 2019 and was amazed to discover [espresso costs exactly 1€](https://perfectdailygrind.com/2020/10/why-does-espresso-still-cost-1-euro-in-italy-price/), yet excellent coffee is sold everywhere (in small local stores as well as specialty ones)_
+
+### [Tazza D'oro](http://www.tazzadorocoffeeshop.com/?lang=en)
+
+The first coffee store I had to get to in Rome was Tazza D'oro. Growing up, they used to have a single branch outside of Italy in Tel Aviv and I used to go there with my mom every week to listen to the Jazz elite of Israel play and eat delicious granitas (a dessert composed of crushed iced espresso and whipped creme, maybe there my coffee obsession started?). The store is running since 1944 and its design stayed in the early last century style - including staff's clothes. My top recommendation for anyone visiting Rome.
+
+- Store: [Via degli Orfani, 84, 00186 Roma RM, Italy](https://goo.gl/maps/iNPze6mmUBj3TarF8)
