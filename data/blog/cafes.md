@@ -13,6 +13,7 @@ I love drinking coffee but it gotta be good (for the snobs: I like my coffee wit
 - [Be'er Sheva](#beer-sheva)
 - [Rome](#rome)
 - [Lisbon](#lisbon)
+- [Zürich](#zürich)
 
 ## Tel Aviv
 
@@ -148,3 +149,17 @@ _I visited Rome with my mom in 2019 and was amazed to discover [espresso costs e
 The first coffee store I had to get to in Rome was Tazza D'oro. Growing up, they used to have a single branch outside of Italy in Tel Aviv and I used to go there with my mom every week to listen to the Jazz elite of Israel play and eat delicious granitas (a dessert composed of crushed iced espresso and whipped creme, maybe there my coffee obsession started?). The store is running since 1944 and its design stayed in the early last century style - including staff's clothes. My top recommendation for anyone visiting Rome.
 
 - Store: [Via degli Orfani, 84, 00186 Roma RM, Italy](https://goo.gl/maps/iNPze6mmUBj3TarF8)
+
+## Zürich
+
+_I visited Zürich for two days in 2022 and was very happy to discover a thriving coffee scene_
+
+### [MAME](https://mame.coffee/)
+
+### [Café Miyuko](https://www.miyuko.ch/)
+
+### [Boréal](https://www.borealcoffee.ch/)
+
+### [Bean Bank Coffee & CO](https://beanbank.coffee/en)
+
+### [Miró Manufactura de Café](https://mirocoffee.co/)
