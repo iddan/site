@@ -156,10 +156,24 @@ _I visited Zürich for two days in 2022 and was very happy to discover a thrivin
 
 ### [MAME](https://mame.coffee/)
 
+- Roastery: [Uetlibergstrasse 65/67, 8045 Zürich, Switzerland](https://goo.gl/maps/TX3wcQQ65PRcW2my5)
+- Seefeldstrasse Store: [Seefeldstrasse 19, 8008 Zürich, Switzerland](https://goo.gl/maps/8ZKNwqueUAZs1RS19)
+- Josefstrasse Store: [Josefstrasse 160, 8005 Zürich, Switzerland](https://goo.gl/maps/WZ7LWF8w6CFwRbgh6)
+
 ### [Café Miyuko](https://www.miyuko.ch/)
+
+- Store: [Bärengasse 20, 8001 Zürich, Switzerland](https://goo.gl/maps/79TnB147EGevvu4K8)
 
 ### [Boréal](https://www.borealcoffee.ch/)
 
+- Store: [Talacker 41, 8001 Zürich, Switzerland](https://goo.gl/maps/ZkSrJPVXra3LdGY27)
+
 ### [Bean Bank Coffee & CO](https://beanbank.coffee/en)
 
+- Main Store: [Lagerstrasse 18c, 8004 Zürich, Switzerland](https://goo.gl/maps/4SAzVzeAuuxG3Ko58)
+- Bärengasse Store: [Bärengasse 29, 8001 Zürich, Switzerland](https://goo.gl/maps/Qgq3UAsbmAXzCEuw7)
+
 ### [Miró Manufactura de Café](https://mirocoffee.co/)
+
+- Main Store: [Brauerstrasse 58, 8004 Zürich, Switzerland](https://goo.gl/maps/oUWfyHCrhgfsJAhR6)
+- Miró Central (central train station): [Haupthalle, Bahnhofpl., 8001 Zürich, Switzerland](https://goo.gl/maps/hn9c5hE3HumNRpa2A)
