@@ -156,24 +156,39 @@ _I visited Zürich for two days in 2022 and was very happy to discover a thrivin
 
 ### [MAME](https://mame.coffee/)
 
+First of all Mame's slogan is the whole vibe of this list: "the best coffee is the coffee you like".
+
+Mame is an elegant café, with quiet but strong energy. Their coffee was balanced, to the point and generally excellent.
+Also, I had an amazing vegan crumble cake there.
+
 - Roastery: [Uetlibergstrasse 65/67, 8045 Zürich, Switzerland](https://goo.gl/maps/TX3wcQQ65PRcW2my5)
 - Seefeldstrasse Store: [Seefeldstrasse 19, 8008 Zürich, Switzerland](https://goo.gl/maps/8ZKNwqueUAZs1RS19)
 - Josefstrasse Store: [Josefstrasse 160, 8005 Zürich, Switzerland](https://goo.gl/maps/WZ7LWF8w6CFwRbgh6)
 
 ### [Café Miyuko](https://www.miyuko.ch/)
 
+Miyuko is a beautiful cozy 2000s japanese culture inspired wonderland with french style pastries.
+Although I haven't tasted their coffee, their matcha was good!
+
 - Store: [Bärengasse 20, 8001 Zürich, Switzerland](https://goo.gl/maps/79TnB147EGevvu4K8)
 
 ### [Boréal](https://www.borealcoffee.ch/)
+
+Boréal is a cozy, spacious café. They have a good coffee and you can sit for hours with your laptop or have a lengthy conversation with a friend. Their coffee was great.
 
 - Store: [Talacker 41, 8001 Zürich, Switzerland](https://goo.gl/maps/ZkSrJPVXra3LdGY27)
 
 ### [Bean Bank Coffee & CO](https://beanbank.coffee/en)
 
+Although a bit snobby, Bean Bank has excellent coffee from around the world and really are the experts for good coffee.
+Expect a suprising coffe, don't expect them to be nice! (and don't ask for a dark roast they don't like that term).
+
 - Main Store: [Lagerstrasse 18c, 8004 Zürich, Switzerland](https://goo.gl/maps/4SAzVzeAuuxG3Ko58)
 - Bärengasse Store: [Bärengasse 29, 8001 Zürich, Switzerland](https://goo.gl/maps/Qgq3UAsbmAXzCEuw7)
 
 ### [Miró Manufactura de Café](https://mirocoffee.co/)
+
+A delicate suprise in the train station! Miró has a tiny coffee place in the central train station in Zürich. If you go through there on your way I highly recommend it.
 
 - Main Store: [Brauerstrasse 58, 8004 Zürich, Switzerland](https://goo.gl/maps/oUWfyHCrhgfsJAhR6)
 - Miró Central (central train station): [Haupthalle, Bahnhofpl., 8001 Zürich, Switzerland](https://goo.gl/maps/hn9c5hE3HumNRpa2A)
