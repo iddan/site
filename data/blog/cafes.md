@@ -95,6 +95,13 @@ In the middle of Machne Yehuda market in Jerusalem there's a small shop roasting
 - The Be'er Sheva store: [Ya'akov Cohen St 12, Be'er Sheva](https://goo.gl/maps/ZBbD1eifVUr3pUmu8)
 - The Modiin store: [Dam HaMacbim St 55, Modi'in-Maccabim-Re'ut](https://goo.gl/maps/VudxBSPqV4SzakyN6)
 
+### [You Need Coffee](https://www.youneedcoffee.co.il/)
+
+Just after Machne Yehuda in the Davidka square there's a small modest looking shop entrance that has some small signs saying "You need good coffee". Inside you will find a roasting machine that fill half of the space and in drawers a dozen of different coffee beans ready to be ground on the spot. There is one table inside and a few outside. The coffee is supreme, and you can also have it with chocolate (usually I'm not that impressed but this one I can highly recommend). Really recommended and a true secret Jerusalem gem.
+
+- Roasting House: [Jaffa St 78, Jerusalem](https://goo.gl/maps/FyDVwRC7C5HijNJf9) (the one I described)
+- Shop: [Jaffa St 30, Jerusalem](https://goo.gl/maps/dKu3DAS8pyZyFY7B7)
+
 ## Be'er Sheva
 
 ### [Trés Jolie](https://www.instagram.com/tres_jolie_patisserie/)
