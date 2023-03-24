@@ -23,10 +23,16 @@ const config: GatsbyConfig = {
         typeName: ({ node }) => node.relativeDirectory,
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-autolink-headers`],
+      },
+    },
     `gatsby-plugin-netlify`,
     "gatsby-redirect-from",
     "gatsby-plugin-meta-redirect",
+    "gatsby-remark-autolink-headers",
   ],
 };
 

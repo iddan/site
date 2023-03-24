@@ -7113,6 +7113,17 @@ gatsby-redirect-from@^0.5.0:
   resolved "https://registry.yarnpkg.com/gatsby-redirect-from/-/gatsby-redirect-from-0.5.0.tgz#007380b29795bd9eb89fd2db6004d6e3d169a599"
   integrity sha512-OOGFdfDJPPdaWHgD5OA6JGanaAfCzij0wJ4XffxnemcFJsVZoOfKhLXxwFSXQ/+YW9S0NchGfpM4ycZ4Z517pw==
 
+gatsby-remark-autolink-headers@^5.25.0:
+  version "5.25.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-autolink-headers/-/gatsby-remark-autolink-headers-5.25.0.tgz#5e0b45c2c169436940315de859d02366ee106da9"
+  integrity sha512-umfbG6BiUhhbiC6yd6GAIZnkuPORdDasJfUueNfHbm6DNiUHAFZ8BU2PqeD7PPh6sHvjXBmUUdZKJfivVd2cNg==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    github-slugger "^1.3.0"
+    lodash "^4.17.21"
+    mdast-util-to-string "^2.0.0"
+    unist-util-visit "^2.0.3"
+
 gatsby-sharp@^0.8.0:
   version "0.8.0"
   resolved "https://registry.npmjs.org/gatsby-sharp/-/gatsby-sharp-0.8.0.tgz"
@@ -7497,6 +7508,11 @@ github-slugger@^1.2.1:
   integrity sha512-gwJScWVNhFYSRDvURk/8yhcFBee6aFjye2a7Lhb2bUyRulpIoek9p0I9Kt7PT67d/nUlZbFu8L9RLiA0woQN8Q==
   dependencies:
     emoji-regex ">=6.0.0 <=6.1.1"
+
+github-slugger@^1.3.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/github-slugger/-/github-slugger-1.5.0.tgz#17891bbc73232051474d68bd867a34625c955f7d"
+  integrity sha512-wIh+gKBI9Nshz2o46B0B3f5k/W+WI9ZAv6y5Dn5WJ5SK1t0TnDimB4WE5rmTD05ZAIn8HALCZVmCsvj0w0v0lw==
 
 glob-parent@^5.1.0, glob-parent@~5.1.0:
   version "5.1.1"
