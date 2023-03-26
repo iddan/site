@@ -68,7 +68,7 @@ Edmund is the poster hipster coffee of Tel Aviv. Ran by 4 incredible men, who I 
 
 ### [Origem](https://www.origem.co.il/)
 
-Origem (portuguese for origin) is a coffee place stated by a Brazilian whose daughter moved to Israel and they moved with her. Though they don't have many vegan options for sides to the coffee I like to occasionally go there for a good Brazilian coffee. When I went to Lisbon in 2022 the Brazilian owned coffee places there reminded me of this intimate coffee place in the old north.
+Origem (Portuguese for origin) is a coffee place stated by a Brazilian whose daughter moved to Israel and they moved with her. Though they don't have many vegan options for sides to the coffee I like to occasionally go there for a good Brazilian coffee. When I went to Lisbon in 2022 the Brazilian owned coffee places there reminded me of this intimate coffee place in the old north.
 
 - Store: [Dizengoff St. 203, Tel Aviv-Yafo](https://goo.gl/maps/YrEBF1QGzLp9nzB16)
 
