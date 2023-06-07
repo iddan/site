@@ -14,6 +14,7 @@ I love drinking coffee but it gotta be good (for the snobs: I like my coffee wit
 - [Rome](#rome)
 - [Lisbon](#lisbon)
 - [Zürich](#zürich)
+- [Rethymno](#rethymno)
 
 ## Tel Aviv
 
@@ -199,3 +200,13 @@ A delicate suprise in the train station! Miró has a tiny coffee place in the ce
 
 - Main Store: [Brauerstrasse 58, 8004 Zürich, Switzerland](https://goo.gl/maps/oUWfyHCrhgfsJAhR6)
 - Miró Central (central train station): [Haupthalle, Bahnhofpl., 8001 Zürich, Switzerland](https://goo.gl/maps/hn9c5hE3HumNRpa2A)
+
+## Rethymno
+
+_I went through Rethymno for a day and and a half in 2023 as part of a wedding of one of my closest friends_
+
+### [Brew Your Mind](https://www.facebook.com/brewyourmind1)
+
+Located in the middle of the city it is easy to stumble upon Brew Your Mind even by accident (or by simply doing a little research on coffee places in Rethymno). I was suprised by the excellence and quality of the coffee shop. The coffee is roasted and ground on premises. Only non-acidic roasts were offered (I wish other speacitly cafés would follow suite) and iced drinks were made in Greek freddo fashion (the coffee and or the milk are shook to make a more foam like texture).
+
+- Store: [Arkadiou 251, Rethymno 741 00, Greece](https://goo.gl/maps/fSv4uKoFBcLRW7fQ8)
