@@ -103,6 +103,12 @@ Just after Machne Yehuda in the Davidka square there's a small modest looking sh
 - Roasting House: [Jaffa St 78, Jerusalem](https://goo.gl/maps/FyDVwRC7C5HijNJf9) (the one I described)
 - Shop: [Jaffa St 30, Jerusalem](https://goo.gl/maps/dKu3DAS8pyZyFY7B7)
 
+### [Power Coffeeworks](https://www.powercoffeeworksjerusalem.com/)
+
+Another excellent coffee roasters outside of the Machne Yehuda, a small shop with a steam-punk theme started by a couple who immigrated from South Africa, the café has a unique vibe to it. I like going through it to grab a quick coffee after visiting the market, but it also nice to sit inside.
+
+- Shop [Agripas St 111, Jerusalem](https://goo.gl/maps/EGgWEBGskVy4HnoL8)
+
 ## Be'er Sheva
 
 ### [Trés Jolie](https://www.instagram.com/tres_jolie_patisserie/)
