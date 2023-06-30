@@ -6,6 +6,11 @@ import "./BlogPost.css";
 
 const BlogPost = ({ data }: PageProps<Queries.BlogPostPageQuery>) => {
   const post = data.markdownRemark;
+
+  if (!post) throw new Error("No post found");
+  if (!post.frontmatter) throw new Error("No frontmatter found");
+  if (!post.html) throw new Error("No html found");
+
   const { title } = post.frontmatter;
 
   return (

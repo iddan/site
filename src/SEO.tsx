@@ -14,11 +14,16 @@ export type SEOProps = {
   /** The page title */
   title: string;
   /** The page description */
-  description?: string;
+  description?: string | null;
 };
 
 const SEO = ({ description, title }: SEOProps) => {
   const { site } = useStaticQuery<Queries.SEOQuery>(query);
+
+  if (!site?.siteMetadata) throw new Error("No site metadata found");
+  if (!site.siteMetadata.title) throw new Error("No site title found");
+  if (!site.siteMetadata.description)
+    throw new Error("No site description found");
 
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata.title;
@@ -43,7 +48,7 @@ const SEO = ({ description, title }: SEOProps) => {
 export default SEO;
 
 export const query = graphql`
-  query SEOQuery {
+  query SEO {
     site {
       siteMetadata {
         title

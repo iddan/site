@@ -45,7 +45,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
   // `context` is available in the template as a prop and as a variable in GraphQL
 
   if (posts.length > 0) {
-    posts.forEach((post) => {
+    for (const post of posts) {
       if (!post.fields) {
         throw new Error("Post is missing fields");
       }
@@ -59,7 +59,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
           slug: post.fields.slug,
         },
       });
-    });
+    }
   }
 };
 
@@ -93,31 +93,31 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
     // blog posts are stored inside "data/blog" instead of returning an error
     createTypes(/* graphql */ `
     type SiteSiteMetadata {
-      siteUrl: String
+      siteUrl: String!
     }
 
     type Author {
-      name: String
-      summary: String
+      name: String!
+      summary: String!
     }
 
     type Social {
-      twitter: String
+      twitter: String!
     }
 
     type MarkdownRemark implements Node {
-      frontmatter: Frontmatter
-      fields: Fields
+      frontmatter: Frontmatter!
+      fields: Fields!
     }
 
     type Frontmatter {
-      title: String
-      description: String
-      date: Date @dateformat
+      title: String!
+      description: String!
+      date: Date! @dateformat
     }
 
     type Fields {
-      slug: String
+      slug: String!
     }
 
     type Project implements Node {
