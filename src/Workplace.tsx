@@ -1,13 +1,13 @@
 import React from "react";
 import "./card-list.css";
+import { graphql } from "gatsby";
 
-export type TWorkplace = {
-  role: string;
-  link: string;
-  title: string;
+export type TWorkplace = Omit<
+  Queries.WorkplaceFragment,
+  "startDate" | "endDate"
+> & {
   startDate: Date;
   endDate: Date | null;
-  description: string;
 };
 
 export type WorkplaceProps = {
@@ -28,3 +28,15 @@ const Workplace = ({ workplace }: WorkplaceProps) => (
 );
 
 export default Workplace;
+
+export const query = graphql`
+  fragment Workplace on Workplace {
+    title
+    startDate
+    role
+    link
+    endDate
+    description
+    current
+  }
+`;

@@ -45,13 +45,7 @@ export const query = graphql`
   query WorkPage {
     allWorkplace {
       nodes {
-        title
-        startDate
-        role
-        link
-        endDate
-        description
-        current
+        ...Workplace
       }
     }
   }
