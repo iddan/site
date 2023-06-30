@@ -32,7 +32,7 @@ const SEO = ({ description, title }: SEOProps) => {
     <>
       <html lang="en" />
       <title>
-        {title} | ${defaultTitle}
+        {title} | {defaultTitle}
       </title>
       <meta name="description" content={metaDescription} />
       <meta name="og:title" content={title} />
