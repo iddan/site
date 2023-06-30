@@ -7,7 +7,6 @@ const config: GatsbyConfig = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cms`,
     "gatsby-plugin-use-dark-mode",
     {
       resolve: `gatsby-source-filesystem`,

@@ -1,6 +1,6 @@
 # Iddan Aaronsohn's Personal Site
 
-My personal website with links and projects
+My website with links and projects
 
 [![Screenshot](./docs/screenshot.png)](https://aniddan.com)
 
@@ -9,7 +9,6 @@ My personal website with links and projects
 The website is statically generated in [Netlify](http://netlify.com/) using:
 
 - [Gatsby](https://www.gatsbyjs.org/)
-- [Netlify CMS](https://www.netlifycms.org/)
 
 ### Development
 
