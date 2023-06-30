@@ -25,7 +25,6 @@ const Blog = () => {
   const data = useStaticQuery<Data>(query);
   return (
     <Layout longHeader>
-      <SEO title="Blog" />
       <section className="CardList">
         {data.allMarkdownRemark.nodes.map((post) => (
           <article
@@ -78,3 +77,5 @@ const query = graphql`
     }
   }
 `;
+
+export const Head = () => <SEO title="Blog" />;

@@ -24,7 +24,6 @@ const Home = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
       <div className="Home">
         <h3>Hello!</h3>
         <p>I'm Iddan Aaronsohn, an entrepreneur.</p>
@@ -78,3 +77,5 @@ const getData = graphql`
     }
   }
 `;
+
+export const Head = () => <SEO title="Home" />;

@@ -26,7 +26,6 @@ const Projects = () => {
   }, [data]);
   return (
     <Layout longHeader>
-      <SEO title="Projects" />
       <section className="Projects">
         {projects.map((project, index) => (
           <Project key={index} {...project} />
@@ -59,3 +58,5 @@ const query = graphql`
     }
   }
 `;
+
+export const Head = () => <SEO title="Projects" />;

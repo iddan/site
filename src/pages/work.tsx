@@ -33,7 +33,6 @@ const Work = () => {
 
   return (
     <Layout longHeader>
-      <SEO title="Work" />
       <section className="CardList">
         {workplaces.map((workplace, index) => (
           <Workplace workplace={workplace} key={index} />
@@ -72,3 +71,5 @@ const query = graphql`
     }
   }
 `;
+
+export const Head = () => <SEO title="Work" />;

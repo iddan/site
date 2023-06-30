@@ -6,7 +6,6 @@ const config: GatsbyConfig = {
     description: `Iddan Aaronsohn's personal site`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     "gatsby-plugin-use-dark-mode",
     {
       resolve: `gatsby-source-filesystem`,
