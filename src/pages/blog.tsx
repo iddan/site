@@ -29,7 +29,7 @@ const Blog = ({ data }: PageProps<Queries.BlogPageQuery>) => {
             <section>
               <p
                 dangerouslySetInnerHTML={{
-                  __html: post.frontmatter.description || post.excerpt,
+                  __html: post.frontmatter.description || post.excerpt || "",
                 }}
                 itemProp="description"
               />

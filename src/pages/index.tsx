@@ -7,7 +7,7 @@ import { parseWorkplace } from "./work";
 import "./index.css";
 
 const Home = ({ data }: PageProps<Queries.HomePageQuery>) => {
-  const currentWorkplace = parseWorkplace(data.workplace);
+  const currentWorkplace = data.workplace && parseWorkplace(data.workplace);
 
   return (
     <Layout>
@@ -27,11 +27,13 @@ const Home = ({ data }: PageProps<Queries.HomePageQuery>) => {
           </a>
           .
         </p>
-        <p>
-          <a href="/work">Current role:</a> {currentWorkplace.role} at{" "}
-          <a href={currentWorkplace.link}>{currentWorkplace.title}</a> (
-          {calculateYearInRole(currentWorkplace.startDate)} year)
-        </p>
+        {currentWorkplace && (
+          <p>
+            <a href="/work">Current role:</a> {currentWorkplace.role} at{" "}
+            <a href={currentWorkplace.link}>{currentWorkplace.title}</a> (
+            {calculateYearInRole(currentWorkplace.startDate)} year)
+          </p>
+        )}
       </div>
     </Layout>
   );
@@ -44,9 +46,7 @@ function calculateYearInRole(startDate: Date): string {
 }
 
 /** @todo handle more cases if needed */
-function calculateWorkDurationInYears(startDate: Date) {
-  console.log(startDate);
-
+function calculateWorkDurationInYears(startDate: Date): number {
   const duration = Number(new Date()) - Number(startDate);
   return Math.floor(duration / 3.154e10);
 }
@@ -54,13 +54,7 @@ function calculateWorkDurationInYears(startDate: Date) {
 export const query = graphql`
   query HomePage {
     workplace(current: { eq: true }) {
-      title
-      startDate
-      role
-      link
-      endDate
-      description
-      current
+      ...Workplace
     }
   }
 `;

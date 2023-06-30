@@ -31,9 +31,7 @@ function transformData(data: Queries.WorkPageQuery) {
   return data.allWorkplace.nodes.map(parseWorkplace);
 }
 
-type WorkplaceNode = Queries.WorkPageQuery["allWorkplace"]["nodes"][number];
-
-export function parseWorkplace(node: WorkplaceNode): TWorkplace {
+export function parseWorkplace(node: Queries.WorkplaceFragment): TWorkplace {
   return {
     ...node,
     startDate: new Date(node.startDate),
