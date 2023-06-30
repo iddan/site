@@ -14,7 +14,7 @@ const Projects = ({ data }: PageProps<Queries.ProjectsPageQuery>) => {
     <Layout longHeader>
       <section className="Projects">
         {projects.map((project, index) => (
-          <Project key={index} {...project} />
+          <Project key={index} project={project} />
         ))}
       </section>
     </Layout>
@@ -34,11 +34,7 @@ export const query = graphql`
   query ProjectsPage {
     allProject {
       nodes {
-        title
-        description
-        image
-        imageSize
-        link
+        ...Project
         startDate
       }
     }

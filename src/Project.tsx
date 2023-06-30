@@ -1,23 +1,14 @@
 import React from "react";
+import { graphql } from "gatsby";
 import { Textfit } from "react-textfit";
 import Image from "./Image";
 import "./Project.css";
 
-export type ProjectProps = {
-  title: string;
-  image: string;
-  imageSize: number;
-  description: string;
-  link: string;
-};
-
 const Project = ({
-  title,
-  image,
-  imageSize,
-  description,
-  link,
-}: ProjectProps) => (
+  project: { title, image, imageSize, description, link },
+}: {
+  project: Queries.ProjectFragment;
+}) => (
   <a href={link} className="Project">
     <Image source={image} size={imageSize} />
     <h3>
@@ -30,3 +21,13 @@ const Project = ({
 );
 
 export default Project;
+
+export const query = graphql`
+  fragment Project on Project {
+    title
+    image
+    imageSize
+    description
+    link
+  }
+`;
