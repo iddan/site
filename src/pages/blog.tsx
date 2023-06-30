@@ -1,28 +1,11 @@
 import React from "react";
-import { useStaticQuery, Link, graphql } from "gatsby";
+import { Link, graphql, PageProps } from "gatsby";
 import Layout from "../layout";
 import SEO from "../SEO";
 import "../card-list.css";
 import "./blog.css";
 
-type Data = {
-  allMarkdownRemark: {
-    nodes: Array<{
-      fields: {
-        slug: string;
-      };
-      excerpt: string;
-      frontmatter: {
-        title: string;
-        date: Date;
-        description: string;
-      };
-    }>;
-  };
-};
-
-const Blog = () => {
-  const data = useStaticQuery<Data>(query);
+const Blog = ({ data }: PageProps<Queries.BlogPageQuery>) => {
   return (
     <Layout longHeader>
       <section className="CardList">
@@ -60,9 +43,9 @@ const Blog = () => {
 
 export default Blog;
 
-const query = graphql`
-  {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+export const query = graphql`
+  query BlogPage {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       nodes {
         excerpt
         fields {

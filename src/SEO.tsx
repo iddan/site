@@ -18,20 +18,7 @@ export type SEOProps = {
 };
 
 const SEO = ({ description, title }: SEOProps) => {
-  const { site } = useStaticQuery<{
-    site: { siteMetadata: { title: string; description: string } };
-  }>(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-          }
-        }
-      }
-    `
-  );
+  const { site } = useStaticQuery<Queries.SEOQuery>(query);
 
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata.title;
@@ -54,3 +41,14 @@ const SEO = ({ description, title }: SEOProps) => {
 };
 
 export default SEO;
+
+export const query = graphql`
+  query SEOQuery {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
+  }
+`;

@@ -13,9 +13,9 @@ export const createPages: GatsbyNode["createPages"] = async ({
   const blogPost = path.resolve(`./src/BlogPost.tsx`);
 
   // Get all markdown blog posts sorted by date
-  const result = await graphql(
-    `
-      {
+  const result =
+    await graphql<Queries.AllMarkdownBlogPostsQuery>(/* graphql */ `
+      query AllMarkdownBlogPosts {
         allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
           nodes {
             fields {
@@ -27,8 +27,7 @@ export const createPages: GatsbyNode["createPages"] = async ({
           }
         }
       }
-    `
-  );
+    `);
 
   if (result.errors) {
     reporter.panicOnBuild(
@@ -46,8 +45,13 @@ export const createPages: GatsbyNode["createPages"] = async ({
   // `context` is available in the template as a prop and as a variable in GraphQL
 
   if (posts.length > 0) {
-    // @ts-ignore
     posts.forEach((post) => {
+      if (!post.fields) {
+        throw new Error("Post is missing fields");
+      }
+      if (!post.fields.slug) {
+        throw new Error("Post is missing slug");
+      }
       createPage({
         path: post.fields.slug,
         component: blogPost,
@@ -87,7 +91,7 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
     // Also explicitly define the Markdown frontmatter
     // This way the "MarkdownRemark" queries will return `null` even when no
     // blog posts are stored inside "data/blog" instead of returning an error
-    createTypes(`
+    createTypes(/* graphql */ `
     type SiteSiteMetadata {
       siteUrl: String
     }
@@ -114,6 +118,24 @@ export const createSchemaCustomization: GatsbyNode["createSchemaCustomization"] 
 
     type Fields {
       slug: String
+    }
+
+    type Project implements Node {
+      title: String!
+      description: String!
+      image: String!
+      imageSize: Float!
+      link: String!
+      startDate: String!
+    }
+
+    type Workplace implements Node {
+      role: String!
+      link: String!
+      title: String!
+      startDate: Date! @dateformat
+      endDate: Date @dateformat
+      description: String!
     }
   `);
   };

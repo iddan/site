@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "author": "Iddan Aaronsohn <mail@aniddan.com>",
   "dependencies": {
+    "@types/pluralize": "^0.0.29",
+    "change-case": "^4.1.2",
     "classnames": "^2.3.2",
     "gatsby": "^5.11.0",
     "gatsby-plugin-meta-redirect": "^1.1.1",
@@ -15,6 +17,7 @@
     "gatsby-transformer-remark": "^6.11.0",
     "gatsby-transformer-yaml": "^5.11.0",
     "lodash.sortby": "^4.7.0",
+    "pluralize": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-textfit": "^1.1.1",
@@ -25,8 +28,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
     "check-format": "prettier --check src",
     "format": "prettier --write src",
     "test": "echo \"Error: no test specified\" && exit 1"

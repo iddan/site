@@ -1,23 +1,10 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, PageProps } from "gatsby";
 import Layout from "./layout";
 import SEO from "./SEO";
 import "./BlogPost.css";
 
-/** @todo infer from graphql */
-type Data = {
-  markdownRemark: {
-    excerpt: string;
-    html: string;
-    frontmatter: {
-      title: string;
-      description: string;
-      date: string;
-    };
-  };
-};
-
-const BlogPost = ({ data }: { data: Data }) => {
+const BlogPost = ({ data }: PageProps<Queries.BlogPostPageQuery>) => {
   const post = data.markdownRemark;
   const { title } = post.frontmatter;
 
@@ -47,8 +34,8 @@ const BlogPost = ({ data }: { data: Data }) => {
 
 export default BlogPost;
 
-export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+export const query = graphql`
+  query BlogPostPage($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)

@@ -1,26 +1,13 @@
-import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
+import { PageProps, graphql } from "gatsby";
 import Layout from "../layout";
 import { ordinal } from "../ordinal.util";
 import SEO from "../SEO";
-import "./index.css";
 import { parseWorkplace } from "./work";
+import "./index.css";
 
-type Data = {
-  workplaces: {
-    title: string;
-    startDate: string;
-    role: string;
-    link: string;
-    endDate: string | null;
-    description: string;
-    current: boolean;
-  };
-};
-
-const Home = () => {
-  const data = useStaticQuery<Data>(getData);
-  const currentWorkplace = parseWorkplace(data.workplaces);
+const Home = ({ data }: PageProps<Queries.HomePageQuery>) => {
+  const currentWorkplace = parseWorkplace(data.workplace);
 
   return (
     <Layout>
@@ -64,9 +51,9 @@ function calculateWorkDurationInYears(startDate: Date) {
   return Math.floor(duration / 3.154e10);
 }
 
-const getData = graphql`
-  query getData {
-    workplaces(current: { eq: true }) {
+export const query = graphql`
+  query HomePage {
+    workplace(current: { eq: true }) {
       title
       startDate
       role

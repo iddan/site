@@ -1,26 +1,12 @@
 import React, { useMemo } from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { PageProps, graphql } from "gatsby";
 import sortBy from "lodash.sortby";
 import Project from "../Project";
 import Layout from "../layout";
 import SEO from "../SEO";
 import "./Projects.css";
 
-type Data = {
-  allProjects: {
-    nodes: Array<{
-      title: string;
-      description: string;
-      image: string;
-      imageSize: number;
-      link: string;
-      startDate: string;
-    }>;
-  };
-};
-
-const Projects = () => {
-  const data = useStaticQuery<Data>(query);
+const Projects = ({ data }: PageProps<Queries.ProjectsPageQuery>) => {
   const projects = useMemo(() => {
     return sortBy(transformData(data), (project) => project.startDate);
   }, [data]);
@@ -37,16 +23,16 @@ const Projects = () => {
 
 export default Projects;
 
-function transformData(data: Data) {
-  return data.allProjects.nodes.map((node) => ({
+function transformData(data: Queries.ProjectsPageQuery) {
+  return data.allProject.nodes.map((node) => ({
     ...node,
     startDate: new Date(node.startDate),
   }));
 }
 
-const query = graphql`
-  {
-    allProjects {
+export const query = graphql`
+  query ProjectsPage {
+    allProject {
       nodes {
         title
         description

@@ -1,29 +1,12 @@
 import React, { useMemo } from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { PageProps, graphql } from "gatsby";
 import sortBy from "lodash.sortby";
 import Layout from "../layout";
-import Workplace from "../Workplace";
+import Workplace, { TWorkplace } from "../Workplace";
 import SEO from "../SEO";
 import "../card-list.css";
 
-type WorkplaceNode = {
-  title: string;
-  startDate: string;
-  role: string;
-  link: string;
-  endDate: string | null;
-  description: string;
-  current: boolean;
-};
-
-type Data = {
-  allWorkplaces: {
-    nodes: WorkplaceNode[];
-  };
-};
-
-const Work = () => {
-  const data = useStaticQuery<Data>(query);
+const Work = ({ data }: PageProps<Queries.WorkPageQuery>) => {
   const workplaces = useMemo(() => {
     return sortBy(
       transformData(data),
@@ -44,11 +27,13 @@ const Work = () => {
 
 export default Work;
 
-function transformData(data: Data) {
-  return data.allWorkplaces.nodes.map(parseWorkplace);
+function transformData(data: Queries.WorkPageQuery) {
+  return data.allWorkplace.nodes.map(parseWorkplace);
 }
 
-export function parseWorkplace(node: WorkplaceNode) {
+type WorkplaceNode = Queries.WorkPageQuery["allWorkplace"]["nodes"][number];
+
+export function parseWorkplace(node: WorkplaceNode): TWorkplace {
   return {
     ...node,
     startDate: new Date(node.startDate),
@@ -56,9 +41,9 @@ export function parseWorkplace(node: WorkplaceNode) {
   };
 }
 
-const query = graphql`
-  {
-    allWorkplaces {
+export const query = graphql`
+  query WorkPage {
+    allWorkplace {
       nodes {
         title
         startDate

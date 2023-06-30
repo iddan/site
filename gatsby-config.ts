@@ -1,10 +1,15 @@
 import { GatsbyConfig } from "gatsby";
+import { singular } from "pluralize";
+import { pascalCase } from "change-case";
+
+type YamlTypeNameArg = { node: { relativeDirectory: string } };
 
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `iddan`,
     description: `Iddan Aaronsohn's personal site`,
   },
+  graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-use-dark-mode",
     {
@@ -17,8 +22,8 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-transformer-yaml`,
       options: {
-        // @ts-ignore
-        typeName: ({ node }) => node.relativeDirectory,
+        typeName: ({ node }: YamlTypeNameArg) =>
+          pascalCase(singular(node.relativeDirectory)),
       },
     },
     {

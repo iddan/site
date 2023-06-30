@@ -1,15 +1,17 @@
 import React from "react";
 import "./card-list.css";
 
-type WorkplaceProps = {
-  workplace: {
-    role: string;
-    link: string;
-    title: string;
-    startDate: Date;
-    endDate: Date | null;
-    description: string;
-  };
+export type TWorkplace = {
+  role: string;
+  link: string;
+  title: string;
+  startDate: Date;
+  endDate: Date | null;
+  description: string;
+};
+
+export type WorkplaceProps = {
+  workplace: TWorkplace;
 };
 
 const Workplace = ({ workplace }: WorkplaceProps) => (

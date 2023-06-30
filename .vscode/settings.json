@@ -11,5 +11,6 @@
       "pattern": "*.md"
     }
   ],
-  "cSpell.language": "en,en-GB"
+  "cSpell.language": "en,en-GB",
+  "dbt.queryLimit": 500
 }
