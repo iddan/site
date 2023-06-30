@@ -1,10 +1,14 @@
 import React from "react";
 import { graphql, PageProps } from "gatsby";
-import Layout from "./layout";
-import SEO from "./SEO";
+import Layout from "../../layout";
+import SEO from "../../SEO";
 import "./BlogPost.css";
 
-const BlogPost = ({ data }: PageProps<Queries.BlogPostPageQuery>) => {
+const BlogPost = ({
+  data,
+  pageContext,
+}: PageProps<Queries.BlogPostPageQuery>) => {
+  console.log(pageContext);
   const post = data.markdownRemark;
 
   if (!post) throw new Error("No post found");
@@ -40,8 +44,8 @@ const BlogPost = ({ data }: PageProps<Queries.BlogPostPageQuery>) => {
 export default BlogPost;
 
 export const query = graphql`
-  query BlogPostPage($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+  query BlogPostPage($id: String!) {
+    markdownRemark(id: { eq: $id }) {
       id
       excerpt(pruneLength: 160)
       html
