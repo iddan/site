@@ -1,8 +1,6 @@
 /**
- * SEO component that queries for data with Gatsby's useStaticQuery React hook
+ * SEO component
  * Should only be used within Gatsby's Head component
- *
- * @see: https://www.gatsbyjs.com/docs/use-static-query/
  *
  * @module
  */
