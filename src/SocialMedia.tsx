@@ -1,19 +1,14 @@
 import React from "react";
-import facebook from "../icons/facebook.svg";
 import twitter from "../icons/twitter.svg";
 import github from "../icons/github.svg";
 import instagram from "../icons/instagram.svg";
 import hackerNews from "../icons/hacker-news.svg";
+import spotify from "../icons/spotify.svg";
 import "./SocialMedia.css";
 
 const SocialMedia = () => {
   return (
     <>
-      <SocialMedium
-        title="Facebook"
-        link="https://facebook.com/theiddan"
-        icon={facebook}
-      />
       <SocialMedium
         title="Twitter"
         link="https://twitter.com/iddan"
@@ -33,6 +28,11 @@ const SocialMedia = () => {
         title="Instagram"
         link="https://instagram.com/aniddan"
         icon={instagram}
+      />
+      <SocialMedium
+        title="Spotify"
+        link="https://open.spotify.com/user/aniddan"
+        icon={spotify}
       />
     </>
   );
