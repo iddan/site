@@ -10,6 +10,7 @@
     "gatsby": "^5.11.0",
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-netlify": "^5.1.0",
+    "gatsby-plugin-sitemap": "^6.11.0",
     "gatsby-plugin-use-dark-mode": "^2.0.1",
     "gatsby-redirect-from": "^1.0.3",
     "gatsby-remark-autolink-headers": "^6.11.0",

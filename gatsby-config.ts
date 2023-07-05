@@ -8,6 +8,7 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `iddan`,
     description: `Iddan Aaronsohn's personal site`,
+    siteUrl: "https://aniddan.com", // Required by gatsby-plugin-sitemap
   },
   graphqlTypegen: true,
   plugins: [
@@ -36,6 +37,7 @@ const config: GatsbyConfig = {
     "gatsby-redirect-from",
     "gatsby-plugin-meta-redirect",
     "gatsby-remark-autolink-headers",
+    "gatsby-plugin-sitemap",
   ],
 };
 
