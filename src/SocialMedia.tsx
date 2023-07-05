@@ -1,4 +1,5 @@
 import React from "react";
+import linkedin from "../icons/linkedin.svg";
 import twitter from "../icons/twitter.svg";
 import github from "../icons/github.svg";
 import instagram from "../icons/instagram.svg";
@@ -23,6 +24,11 @@ const SocialMedia = () => {
         title="Hacker News"
         link="https://news.ycombinator.com/user?id=iddan"
         icon={hackerNews}
+      />
+      <SocialMedium
+        title="LinkedIn"
+        link="https://www.linkedin.com/in/iddan"
+        icon={linkedin}
       />
       <SocialMedium
         title="Instagram"
