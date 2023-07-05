@@ -32,7 +32,7 @@ function transformData(data: Queries.ProjectsPageQuery) {
 
 export const query = graphql`
   query ProjectsPage {
-    allProject {
+    allProject(sort: { startDate: DESC }) {
       nodes {
         ...Project
         startDate
