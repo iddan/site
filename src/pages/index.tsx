@@ -27,6 +27,16 @@ const Home = ({ data }: PageProps<Queries.HomePageQuery>) => {
           </a>
           .
         </p>
+        <p>
+          While Israel is experiencing a{" "}
+          <a href="https://www.vox.com/2023/7/23/23804795/israel-protests-judicial-reforms-netanyahu-likud-idf">
+            challenging period
+          </a>{" "}
+          and I'm putting my efforts into helping the country, I am currently
+          engaged in freelance work. If you are interested in hiring my
+          services, please feel free to reach out to me at{" "}
+          <a href="mailto:mail@aniddan.com">mail@aniddan.com</a>.
+        </p>
         {currentWorkplace && (
           <p>
             <a href="/work">Current role:</a> {currentWorkplace.role} at{" "}
