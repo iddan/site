@@ -12,29 +12,64 @@ const Home = ({ data }: PageProps<Queries.HomePageQuery>) => {
   return (
     <Layout>
       <div className="Home">
-        <h3>Hello!</h3>
-        <p>I'm Iddan Aaronsohn, an entrepreneur.</p>
-        <p>I specialise in digital products and software engineering.</p>
+        <p>I'm Iddan Aaronsohn, an entrepreneur based in Tel Aviv.</p>
+        <p>
+          I specialize in building successful digital products and growing
+          businesses. Brining a unique combination of technical expertise,
+          product vision, sales acumen, and marketing strategy to every project.
+        </p>
         <p>Occasionally, I do graphic design and fine art.</p>
         <p>
-          Based in <a href="https://en.wikipedia.org/wiki/Tel_Aviv">Tel Aviv</a>
-          .
-        </p>
-        <p>
-          I am working my way towards{" "}
-          <a href="https://en.wikipedia.org/wiki/Earning_to_give">
-            earn to give
+          With a decade of experience, I've built and scaled multiple successful
+          products, including serving as the first CTO of{" "}
+          <a href="https://amplication.com">Amplication</a>, where I built and
+          launched their initial product. I also built the initial product for{" "}
+          <a href="https://flycode.com">Flycode</a> (YC S22), which has grown
+          into a highly successful business. I also created and launched the
+          initial product for <a href="https://magicyard.co">MagicYard</a>,
+          acquired by <a href="https://www.volleygames.com/">Volley</a>. As a
+          Founding Engineer at WithElement (YC W21), I helped shape the
+          company's product and growth strategy. I was also one of the first
+          engineers at <a href="https://khealth.com">K Health</a> helping it
+          grow from 0 to millions of users and reaching a valuation of $1B.{" "}
+          <a href="/work">
+            <i>Work &rarr;</i>
           </a>
-          .
         </p>
         <p>
-          While Israel is experiencing a{" "}
+          I'm also actively involved in open source development. I maintain two
+          popular libraries (
+          <a href="https://github.com/iddan/react-spreadsheet">
+            react-spreadsheet
+          </a>{" "}
+          and{" "}
+          <a href="https://github.com/iddan/react-native-canvas">
+            react-native-canvas
+          </a>
+          ) with over 1K stars on GitHub and have contributed to{" "}
+          <a href="https://github.com/cayleygraph/cayley">Cayley</a>. I also
+          hosted a software podcast called{" "}
+          <a href="https://open.spotify.com/show/0QJdQ5Q5Q5Q5Q5Q5Q5Q5Q5">
+            Merge
+          </a>
+          .{" "}
+          <a href="/projects">
+            <i>Projects &rarr;</i>
+          </a>
+        </p>
+        <p>
+          I consult entrepreneurs and engineers on technical challenges, product
+          development, and business growth. I also help engineers navigate their
+          careers and make strategic career moves.
+        </p>
+        <p>
+          While Israel is going through a{" "}
           <a href="https://www.vox.com/2023/7/23/23804795/israel-protests-judicial-reforms-netanyahu-likud-idf">
             challenging period
-          </a>{" "}
-          and I'm putting my efforts into helping the country, I am currently
-          engaged in freelance work. If you are interested in hiring my
-          services, please feel free to reach out to me at{" "}
+          </a>
+          , I'm dedicating my efforts to helping the country. Currently, I am
+          available for freelance work. If you're interested in my services,
+          please reach out at{" "}
           <a href="mailto:mail@aniddan.com">mail@aniddan.com</a>.
         </p>
         {currentWorkplace && (
