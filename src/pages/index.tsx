@@ -63,6 +63,11 @@ const Home = ({ data }: PageProps<Queries.HomePageQuery>) => {
           careers and make strategic career moves.
         </p>
         <p>
+          Outside of work, I'm passionate about cycling, fine art, comics,
+          design, food, urbanism, history, politics, literature, philosophy,
+          fashion, economics, music, and cinema.
+        </p>
+        <p>
           While Israel is going through a{" "}
           <a href="https://www.vox.com/2023/7/23/23804795/israel-protests-judicial-reforms-netanyahu-likud-idf">
             challenging period
