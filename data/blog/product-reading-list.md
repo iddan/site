@@ -2,6 +2,7 @@
 title: "Iddan's Product Reading List"
 date: 2025-05-29
 slug: product-reading-list
+description: "A list of essential reading and viewing materials that have shaped my own product thinking."
 ---
 
 Recently, I talked to a friend who is making the exciting transition from Quality Assurance to Product. To help her hit the ground running, I curated a list of essential reading and viewing materials that have shaped my own product thinking. Whether you're new to product or looking to sharpen your skills, these resources offer invaluable insights into building great products, understanding users, and driving growth.
