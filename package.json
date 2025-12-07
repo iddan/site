@@ -7,17 +7,17 @@
     "@types/pluralize": "^0.0.29",
     "change-case": "^4.1.2",
     "classnames": "^2.3.2",
-    "gatsby": "^5.11.0",
-    "gatsby-plugin-feed": "^5.11.0",
+    "gatsby": "^5.15.0",
+    "gatsby-plugin-feed": "^5.15.0",
     "gatsby-plugin-meta-redirect": "^1.1.1",
-    "gatsby-plugin-netlify": "^5.1.0",
-    "gatsby-plugin-sitemap": "^6.11.0",
+    "gatsby-plugin-netlify": "^5.1.1",
+    "gatsby-plugin-sitemap": "^6.15.0",
     "gatsby-plugin-use-dark-mode": "^2.0.1",
     "gatsby-redirect-from": "^1.0.3",
-    "gatsby-remark-autolink-headers": "^6.11.0",
-    "gatsby-source-filesystem": "^5.11.0",
-    "gatsby-transformer-remark": "^6.11.0",
-    "gatsby-transformer-yaml": "^5.11.0",
+    "gatsby-remark-autolink-headers": "^6.15.0",
+    "gatsby-source-filesystem": "^5.15.0",
+    "gatsby-transformer-remark": "^6.15.0",
+    "gatsby-transformer-yaml": "^5.15.0",
     "lodash.sortby": "^4.7.0",
     "pluralize": "^8.0.0",
     "react": "^18.2.0",
@@ -49,6 +49,6 @@
     "typescript": "^4.9.4"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   }
 }
