@@ -4,11 +4,7 @@ import Layout from "../../layout";
 import SEO from "../../SEO";
 import "./BlogPost.css";
 
-const BlogPost = ({
-  data,
-  pageContext,
-}: PageProps<Queries.BlogPostPageQuery>) => {
-  console.log(pageContext);
+const BlogPost = ({ data }: PageProps<Queries.BlogPostPageQuery>) => {
   const post = data.markdownRemark;
 
   if (!post) throw new Error("No post found");
