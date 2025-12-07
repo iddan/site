@@ -6,7 +6,7 @@ description: "A list of recommendations for things to do in Rome."
 ---
 
 Over the past few years I've visited Rome a few times. This is a short list of recommendations for first that visit the eternal city.
-For coffee recommendations please see [Rome in my coffee list](/cafes#rome).
+For coffee recommendations please see [Rome in my coffee list](/blog/cafes#rome).
 
 ### Historical Sites
 
